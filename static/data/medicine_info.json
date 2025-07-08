@@ -1,0 +1,1476 @@
+[
+    {
+      "name": "Paracetamol 500mg",
+      "description": "Paracetamol, also known as acetaminophen, is a common pain reliever and fever reducer.",
+      "uses": "Used to treat mild to moderate pain (headache, toothache, muscle aches) and reduce fever.",
+      "how_it_works": "Blocks the production of prostaglandins in the brain that signal pain and fever.",
+      "dosage": "Adults: 500-1000mg every 4-6 hours as needed. Do not exceed 4000mg per day.",
+      "side_effects": "Rare: allergic reactions, rash, liver damage (with overdose).",
+      "precautions": "Avoid exceeding the recommended dose. Consult a doctor if you have liver disease or drink alcohol regularly.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Johnson & Johnson",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/acetaminophen-oral-route/description/drg-20068480",
+        "https://www.webmd.com/drugs/2/drug-3626/paracetamol-oral/details"
+      ]
+    },
+    {
+      "name": "Ibuprofen 400mg",
+      "description": "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce inflammation, and lower fever.",
+      "uses": "Used for headaches, muscle pain, arthritis, menstrual cramps, and fever reduction.",
+      "how_it_works": "Blocks the production of prostaglandins, chemicals that cause pain and inflammation.",
+      "dosage": "Adults: 200-400mg every 4-6 hours as needed. Do not exceed 3200mg per day unless directed by a doctor.",
+      "side_effects": "Stomach upset, nausea, heartburn, dizziness, increased risk of bleeding, allergic reactions.",
+      "precautions": "Avoid if you have ulcers, kidney disease, or are allergic to NSAIDs. Consult a doctor if pregnant or taking other medications.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Pfizer",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/ibuprofen-oral-route/description/drg-20070602",
+        "https://www.webmd.com/drugs/2/drug-5166/ibuprofen-oral/details"
+      ]
+    },
+    {
+      "name": "Aspirin 100mg",
+      "description": "Aspirin is a nonsteroidal anti-inflammatory drug (NSAID) used to reduce pain, fever, and inflammation, and as a blood thinner.",
+      "uses": "Used for pain relief, fever reduction, and to reduce the risk of heart attack and stroke.",
+      "how_it_works": "Blocks enzymes involved in producing prostaglandins, which cause pain and inflammation, and inhibits platelet aggregation.",
+      "dosage": "Adults: 50-100mg daily for heart protection, or 325-650mg every 4-6 hours for pain. Do not exceed 4000mg per day.",
+      "side_effects": "Stomach upset, heartburn, increased risk of bleeding, allergic reactions.",
+      "precautions": "Avoid if you have bleeding disorders, ulcers, or are allergic to NSAIDs. Not for children with viral infections.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Bayer",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/aspirin-oral-route/description/drg-20069432",
+        "https://www.webmd.com/drugs/2/drug-1082/aspirin-oral/details"
+      ]
+    },
+    {
+      "name": "Acetaminophen 650mg",
+      "description": "Acetaminophen is a pain reliever and fever reducer, commonly used for mild to moderate pain.",
+      "uses": "Used for headaches, muscle aches, menstrual cramps, toothaches, and fever reduction.",
+      "how_it_works": "Reduces pain signals in the brain and inhibits fever-regulating chemicals.",
+      "dosage": "Adults: 650-1000mg every 4-6 hours as needed. Do not exceed 4000mg per day.",
+      "side_effects": "Rare: rash, allergic reactions, liver damage (with overdose).",
+      "precautions": "Avoid alcohol. Do not exceed recommended dose. Consult a doctor if you have liver disease.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "GSK",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/acetaminophen-oral-route/description/drg-20068480",
+        "https://www.webmd.com/drugs/2/drug-3626/acetaminophen-oral/details"
+      ]
+    },
+    {
+      "name": "Naproxen 250mg",
+      "description": "Naproxen is a nonsteroidal anti-inflammatory drug (NSAID) used for pain relief and inflammation reduction.",
+      "uses": "Used for arthritis, muscle pain, menstrual cramps, gout, and fever reduction.",
+      "how_it_works": "Inhibits enzymes that produce prostaglandins, reducing pain and inflammation.",
+      "dosage": "Adults: 250-500mg twice daily. Do not exceed 1500mg per day unless directed by a doctor.",
+      "side_effects": "Stomach pain, heartburn, nausea, headache, increased risk of bleeding.",
+      "precautions": "Avoid if you have heart disease, ulcers, or kidney issues. Consult a doctor if pregnant or on other medications.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Bayer",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/naproxen-oral-route/description/drg-20069820",
+        "https://www.webmd.com/drugs/2/drug-5173/naproxen-oral/details"
+      ]
+    },
+    {
+      "name": "Vitamin D3 1000IU",
+      "description": "Vitamin D3 (cholecalciferol) is a fat-soluble vitamin that supports bone health and immune function.",
+      "uses": "Used to treat or prevent vitamin D deficiency, support bone health, and enhance immune function.",
+      "how_it_works": "Promotes calcium absorption in the gut and regulates bone remodeling.",
+      "dosage": "Adults: 1000-2000IU daily, or as directed by a healthcare provider.",
+      "side_effects": "Rare: nausea, constipation, high calcium levels (with excessive doses).",
+      "precautions": "Avoid excessive doses. Consult a doctor if you have kidney disease or high calcium levels.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Nature Made",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/vitamin-d-oral-route/description/drg-20069622",
+        "https://www.webmd.com/vitamins/ai/ingredientmono-929/vitamin-d"
+      ]
+    },
+    {
+      "name": "Vitamin C 500mg",
+      "description": "Vitamin C (ascorbic acid) is a water-soluble vitamin that supports immune function and skin health.",
+      "uses": "Used to prevent or treat vitamin C deficiency, boost immunity, and promote wound healing.",
+      "how_it_works": "Acts as an antioxidant, protecting cells from damage and supporting collagen formation.",
+      "dosage": "Adults: 500-1000mg daily. Do not exceed 2000mg per day unless directed by a doctor.",
+      "side_effects": "Rare: diarrhea, nausea, stomach cramps (with high doses).",
+      "precautions": "Consult a doctor if you have kidney stones or are on other medications.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Alacer Corp",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/vitamin-c-oral-route/description/drg-20068131",
+        "https://www.webmd.com/vitamins/ai/ingredientmono-1001/vitamin-c-ascorbic-acid"
+      ]
+    },
+    {
+      "name": "Multivitamin Complex",
+      "description": "A dietary supplement containing a combination of essential vitamins and minerals.",
+      "uses": "Used to prevent or treat vitamin deficiencies due to poor diet, illness, or pregnancy.",
+      "how_it_works": "Provides essential nutrients required for various bodily functions.",
+      "dosage": "Adults: 1 tablet daily or as directed by a healthcare provider.",
+      "side_effects": "Rare: upset stomach, headache, unusual taste in mouth.",
+      "precautions": "Do not exceed the recommended dose. Consult a doctor if pregnant or breastfeeding.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Pfizer",
+      "prescription_required": false,
+      "references": [
+        "https://www.webmd.com/vitamins/ai/ingredientmono-972/multivitamins",
+        "https://www.mayoclinic.org/drugs-supplements/multivitamin-and-mineral-oral-route/description/drg-20071127"
+      ]
+    },
+    {
+      "name": "Vitamin B12 1000mcg",
+      "description": "Vitamin B12 (cyanocobalamin) is a water-soluble vitamin essential for nerve function and red blood cell production.",
+      "uses": "Used to treat or prevent vitamin B12 deficiency, anemia, and support nerve health.",
+      "how_it_works": "Supports DNA synthesis and red blood cell formation, and maintains nerve cell function.",
+      "dosage": "Adults: 500-1000mcg daily, or as prescribed for deficiency.",
+      "side_effects": "Rare: headache, nausea, allergic reactions.",
+      "precautions": "Consult a doctor if you have Leber’s disease or are allergic to cobalt.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Nature's Bounty",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/vitamin-b12-oral-route-parenteral-route/description/drg-20061427",
+        "https://www.webmd.com/vitamins/ai/ingredientmono-926/vitamin-b12"
+      ]
+    },
+    {
+      "name": "Omega-3 Fish Oil",
+      "description": "Omega-3 Fish Oil contains essential fatty acids (EPA and DHA) that support heart and brain health.",
+      "uses": "Used to support cardiovascular health, reduce inflammation, and promote brain function.",
+      "how_it_works": "Omega-3 fatty acids reduce triglyceride levels and support cell membrane function.",
+      "dosage": "Adults: 1000-2000mg daily (containing 300-600mg EPA/DHA), or as directed by a doctor.",
+      "side_effects": "Fishy aftertaste, nausea, diarrhea, increased bleeding risk (with high doses).",
+      "precautions": "Consult a doctor if you have bleeding disorders or are taking blood thinners.",
+      "storage": "Store at room temperature or refrigerate, away from moisture and heat.",
+      "manufacturer": "Nordic Naturals",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/omega-3-fatty-acids-fish-oil-alpha-linolenic-acid-oral-route/description/drg-20059388",
+        "https://www.webmd.com/vitamins/ai/ingredientmono-993/fish-oil"
+      ]
+    },
+    {
+      "name": "Lisinopril 10mg",
+      "description": "Lisinopril is an ACE inhibitor used to treat high blood pressure and heart failure.",
+      "uses": "Used to manage hypertension, heart failure, and improve survival after a heart attack.",
+      "how_it_works": "Relaxes blood vessels by inhibiting angiotensin-converting enzyme, lowering blood pressure.",
+      "dosage": "Adults: 10-40mg daily, or as prescribed by a doctor.",
+      "side_effects": "Dizziness, cough, headache, low blood pressure, kidney issues.",
+      "precautions": "Avoid if pregnant or if you have a history of angioedema. Monitor kidney function.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "AstraZeneca",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/lisinopril-oral-route/description/drg-20069129",
+        "https://www.webmd.com/drugs/2/drug-6873/lisinopril-oral/details"
+      ]
+    },
+    {
+      "name": "Amlodipine 5mg",
+      "description": "Amlodipine is a calcium channel blocker used to treat high blood pressure and chest pain.",
+      "uses": "Used for hypertension and angina (chest pain).",
+      "how_it_works": "Relaxes blood vessels by blocking calcium entry, improving blood flow and reducing heart workload.",
+      "dosage": "Adults: 5-10mg daily, or as prescribed.",
+      "side_effects": "Swelling, dizziness, flushing, fatigue, headache.",
+      "precautions": "Avoid if you have severe heart conditions. Consult a doctor if you have liver disease.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Pfizer",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/amlodipine-oral-route/description/drg-20061784",
+        "https://www.webmd.com/drugs/2/drug-5891/amlodipine-oral/details"
+      ]
+    },
+    {
+      "name": "Losartan 50mg",
+      "description": "Losartan is an angiotensin receptor blocker (ARB) used to treat high blood pressure and heart failure.",
+      "uses": "Used for hypertension, heart failure, and to protect kidneys in diabetic patients.",
+      "how_it_works": "Blocks angiotensin II receptors, relaxing blood vessels and lowering blood pressure.",
+      "dosage": "Adults: 25-100mg daily, or as prescribed.",
+      "side_effects": "Dizziness, fatigue, cough, high potassium levels.",
+      "precautions": "Avoid if pregnant. Monitor kidney function and potassium levels.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Merck",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/losartan-oral-route/description/drg-20067341",
+        "https://www.webmd.com/drugs/2/drug-6616/losartan-oral/details"
+      ]
+    },
+    {
+      "name": "Metoprolol 25mg",
+      "description": "Metoprolol is a beta-blocker used to treat high blood pressure, chest pain, and heart failure.",
+      "uses": "Used for hypertension, angina, and to improve survival after a heart attack.",
+      "how_it_works": "Blocks beta receptors, slowing heart rate and reducing blood pressure.",
+      "dosage": "Adults: 25-100mg daily, or as prescribed.",
+      "side_effects": "Dizziness, fatigue, slow heart rate, cold hands/feet.",
+      "precautions": "Avoid abrupt discontinuation. Consult a doctor if you have asthma or diabetes.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Novartis",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/metoprolol-oral-route/description/drg-20071141",
+        "https://www.webmd.com/drugs/2/drug-6879/metoprolol-tartrate-oral/details"
+      ]
+    },
+    {
+      "name": "Hydrochlorothiazide 25mg",
+      "description": "Hydrochlorothiazide is a diuretic used to treat high blood pressure and fluid retention.",
+      "uses": "Used for hypertension and edema (swelling) caused by heart, liver, or kidney disease.",
+      "how_it_works": "Increases urine production, reducing fluid and lowering blood pressure.",
+      "dosage": "Adults: 12.5-50mg daily, or as prescribed.",
+      "side_effects": "Dizziness, dehydration, low potassium, muscle cramps.",
+      "precautions": "Monitor electrolytes. Avoid if you have severe kidney disease or are dehydrated.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Watson Pharma",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/hydrochlorothiazide-oral-route/description/drg-20070829",
+        "https://www.webmd.com/drugs/2/drug-5310/hydrochlorothiazide-oral/details"
+      ]
+    },
+    {
+      "name": "Metformin 500mg",
+      "description": "Metformin is an oral antidiabetic drug used to manage type 2 diabetes.",
+      "uses": "Used to control blood sugar levels in type 2 diabetes and sometimes for polycystic ovary syndrome.",
+      "how_it_works": "Decreases glucose production in the liver and improves insulin sensitivity.",
+      "dosage": "Adults: 500-2000mg daily, taken with meals, or as prescribed.",
+      "side_effects": "Nausea, diarrhea, stomach upset, metallic taste, rare lactic acidosis.",
+      "precautions": "Avoid if you have severe kidney disease. Monitor kidney function.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Bristol-Myers Squibb",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/metformin-oral-route/description/drg-20067074",
+        "https://www.webmd.com/drugs/2/drug-11285/metformin-oral/details"
+      ]
+    },
+    {
+      "name": "Glimepiride 1mg",
+      "description": "Glimepiride is a sulfonylurea used to manage type 2 diabetes.",
+      "uses": "Used to control blood sugar levels in type 2 diabetes.",
+      "how_it_works": "Stimulates insulin release from the pancreas.",
+      "dosage": "Adults: 1-4mg daily, taken with breakfast, or as prescribed.",
+      "side_effects": "Hypoglycemia, weight gain, nausea, allergic reactions.",
+      "precautions": "Monitor blood sugar. Avoid if allergic to sulfa drugs.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Sanofi",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/glimepiride-oral-route/description/drg-20067529",
+        "https://www.webmd.com/drugs/2/drug-12271/glimepiride-oral/details"
+      ]
+    },
+    {
+      "name": "Sitagliptin 100mg",
+      "description": "Sitagliptin is a DPP-4 inhibitor used to manage type 2 diabetes.",
+      "uses": "Used to control blood sugar levels in type 2 diabetes, often with diet and exercise.",
+      "how_it_works": "Increases incretin levels, which stimulate insulin release and reduce glucagon.",
+      "dosage": "Adults: 100mg daily, or as prescribed.",
+      "side_effects": "Headache, sore throat, nausea, pancreatitis (rare).",
+      "precautions": "Monitor kidney function. Avoid if you have a history of pancreatitis.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Merck",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/sitagliptin-oral-route/description/drg-20067033",
+        "https://www.webmd.com/drugs/2/drug-148704/sitagliptin-oral/details"
+      ]
+    },
+    {
+      "name": "Empagliflozin 10mg",
+      "description": "Empagliflozin is an SGLT2 inhibitor used to manage type 2 diabetes.",
+      "uses": "Used to control blood sugar levels and reduce cardiovascular risk in type 2 diabetes.",
+      "how_it_works": "Increases glucose excretion in urine by inhibiting SGLT2 in the kidneys.",
+      "dosage": "Adults: 10-25mg daily, or as prescribed.",
+      "side_effects": "Urinary tract infections, dehydration, low blood pressure, genital infections.",
+      "precautions": "Monitor kidney function. Avoid if you have severe kidney disease.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Boehringer Ingelheim",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/empagliflozin-oral-route/description/drg-20091522",
+        "https://www.webmd.com/drugs/2/drug-165147/empagliflozin-oral/details"
+      ]
+    },
+    {
+      "name": "Cetirizine 10mg",
+      "description": "Cetirizine is an antihistamine used to relieve allergy symptoms.",
+      "uses": "Used for hay fever, allergic rhinitis, and hives.",
+      "how_it_works": "Blocks histamine receptors, reducing allergy symptoms like sneezing and itching.",
+      "dosage": "Adults: 10mg daily, or as directed.",
+      "side_effects": "Drowsiness, dry mouth, headache, nausea.",
+      "precautions": "Avoid alcohol. Use caution if driving or operating machinery.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Johnson & Johnson",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/cetirizine-oral-route/description/drg-20061619",
+        "https://www.webmd.com/drugs/2/drug-12065/cetirizine-oral/details"
+      ]
+    },
+    {
+      "name": "Loratadine 10mg",
+      "description": "Loratadine is a non-drowsy antihistamine used to relieve allergy symptoms.",
+      "uses": "Used for hay fever, allergic rhinitis, and hives.",
+      "how_it_works": "Blocks histamine receptors, reducing allergy symptoms like sneezing and itching.",
+      "dosage": "Adults: 10mg daily, or as directed.",
+      "side_effects": "Headache, fatigue, dry mouth, rare drowsiness.",
+      "precautions": "Consult a doctor if you have liver or kidney disease.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Bayer",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/loratadine-oral-route/description/drg-20067440",
+        "https://www.webmd.com/drugs/2/drug-73/loratadine-oral/details"
+      ]
+    },
+    {
+      "name": "Fexofenadine 180mg",
+      "description": "Fexofenadine is a non-drowsy antihistamine used to relieve allergy symptoms.",
+      "uses": "Used for seasonal allergies and chronic hives.",
+      "how_it_works": "Blocks histamine receptors, reducing symptoms like sneezing, itching, and runny nose.",
+      "dosage": "Adults: 180mg daily, or as directed.",
+      "side_effects": "Headache, nausea, dizziness, back pain.",
+      "precautions": "Avoid with fruit juices. Consult a doctor if you have kidney disease.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Sanofi",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/fexofenadine-oral-route/description/drg-20067061",
+        "https://www.webmd.com/drugs/2/drug-7645/fexofenadine-oral/details"
+      ]
+    },
+    {
+      "name": "Diphenhydramine 25mg",
+      "description": "Diphenhydramine is an antihistamine used to relieve allergies and aid sleep.",
+      "uses": "Used for allergies, motion sickness, and as a sleep aid.",
+      "how_it_works": "Blocks histamine receptors and has sedative effects.",
+      "dosage": "Adults: 25-50mg every 4-6 hours for allergies, or 25-50mg at bedtime for sleep.",
+      "side_effects": "Drowsiness, dry mouth, constipation, dizziness.",
+      "precautions": "Avoid alcohol. Use caution when driving or operating machinery.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Johnson & Johnson",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/diphenhydramine-oral-route/description/drg-20061665",
+        "https://www.webmd.com/drugs/2/drug-1428/diphenhydramine-oral/details"
+      ]
+    },
+    {
+      "name": "Amoxicillin 250mg",
+      "description": "Amoxicillin is a penicillin-type antibiotic used to treat bacterial infections.",
+      "uses": "Used for infections of the ear, nose, throat, skin, and urinary tract.",
+      "how_it_works": "Kills bacteria by preventing them from forming cell walls.",
+      "dosage": "Adults: 250-500mg every 8 hours, or as prescribed. Complete the full course.",
+      "side_effects": "Nausea, diarrhea, rash, allergic reactions.",
+      "precautions": "Inform your doctor if you are allergic to penicillins or have kidney disease.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "GSK",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/amoxicillin-oral-route/description/drg-20069854",
+        "https://www.webmd.com/drugs/2/drug-8616/amoxicillin-oral/details"
+      ]
+    },
+    {
+      "name": "Azithromycin 250mg",
+      "description": "Azithromycin is a macrolide antibiotic used to treat bacterial infections.",
+      "uses": "Used for respiratory infections, skin infections, and sexually transmitted diseases.",
+      "how_it_works": "Inhibits bacterial protein synthesis, stopping bacterial growth.",
+      "dosage": "Adults: 500mg on day 1, then 250mg daily for 4 days, or as prescribed.",
+      "side_effects": "Nausea, diarrhea, abdominal pain, liver issues (rare).",
+      "precautions": "Avoid if you have liver disease or are allergic to macrolides.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Pfizer",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/azithromycin-oral-route/description/drg-20061062",
+        "https://www.webmd.com/drugs/2/drug-1527/azithromycin-oral/details"
+      ]
+    },
+    {
+      "name": "Ciprofloxacin 500mg",
+      "description": "Ciprofloxacin is a fluoroquinolone antibiotic used to treat bacterial infections.",
+      "uses": "Used for urinary tract infections, respiratory infections, and skin infections.",
+      "how_it_works": "Inhibits bacterial DNA replication, killing bacteria.",
+      "dosage": "Adults: 250-750mg every 12 hours, or as prescribed.",
+      "side_effects": "Nausea, diarrhea, tendon pain, tendon rupture (rare).",
+      "precautions": "Avoid if you have tendon issues or myasthenia gravis. Consult a doctor if pregnant.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Bayer",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/ciprofloxacin-oral-route/description/drg-20072288",
+        "https://www.webmd.com/drugs/2/drug-7748/ciprofloxacin-oral/details"
+      ]
+    },
+    {
+      "name": "Doxycycline 100mg",
+      "description": "Doxycycline is a tetracycline antibiotic used to treat bacterial infections.",
+      "uses": "Used for acne, respiratory infections, Lyme disease, and malaria prevention.",
+      "how_it_works": "Inhibits bacterial protein synthesis, preventing bacterial growth.",
+      "dosage": "Adults: 100mg every 12 hours on day 1, then 100mg daily, or as prescribed.",
+      "side_effects": "Nausea, diarrhea, sun sensitivity, tooth discoloration (children).",
+      "precautions": "Avoid if pregnant or breastfeeding. Use sunscreen due to photosensitivity.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Pfizer",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/doxycycline-oral-route/description/drg-20068229",
+        "https://www.webmd.com/drugs/2/drug-8648/doxycycline-oral/details"
+      ]
+    },
+    {
+      "name": "Sertraline 50mg",
+      "description": "Sertraline is a selective serotonin reuptake inhibitor (SSRI) used to treat depression and anxiety.",
+      "uses": "Used for depression, OCD, panic disorder, PTSD, and social anxiety disorder.",
+      "how_it_works": "Increases serotonin levels in the brain, improving mood and anxiety.",
+      "dosage": "Adults: 50-200mg daily, or as prescribed.",
+      "side_effects": "Nausea, insomnia, headache, sexual dysfunction, serotonin syndrome (rare).",
+      "precautions": "Avoid abrupt discontinuation. Monitor for suicidal thoughts, especially in young adults.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Pfizer",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/sertraline-oral-route/description/drg-20065940",
+        "https://www.webmd.com/drugs/2/drug-35/sertraline-oral/details"
+      ]
+    },
+    {
+      "name": "Fluoxetine 20mg",
+      "description": "Fluoxetine is an SSRI antidepressant used to treat depression and other mental health conditions.",
+      "uses": "Used for depression, OCD, bulimia, and panic disorder.",
+      "how_it_works": "Increases serotonin levels in the brain, improving mood and behavior.",
+      "dosage": "Adults: 20-80mg daily, or as prescribed.",
+      "side_effects": "Nausea, insomnia, headache, sexual dysfunction, anxiety.",
+      "precautions": "Monitor for suicidal thoughts. Avoid if taking MAO inhibitors.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Eli Lilly",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/fluoxetine-oral-route/description/drg-20063996",
+        "https://www.webmd.com/drugs/2/drug-1774/fluoxetine-oral/details"
+      ]
+    },
+    {
+      "name": "Escitalopram 10mg",
+      "description": "Escitalopram is an SSRI antidepressant used to treat depression and anxiety.",
+      "uses": "Used for major depressive disorder and generalized anxiety disorder.",
+      "how_it_works": "Increases serotonin levels in the brain, improving mood and reducing anxiety.",
+      "dosage": "Adults: 10-20mg daily, or as prescribed.",
+      "side_effects": "Nausea, insomnia, fatigue, sexual dysfunction, sweating.",
+      "precautions": "Avoid abrupt discontinuation. Monitor for suicidal thoughts in young adults.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Allergan",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/escitalopram-oral-route/description/drg-20063707",
+        "https://www.webmd.com/drugs/2/drug-63990/escitalopram-oxalate-oral/details"
+      ]
+    },
+    {
+      "name": "Bupropion 150mg",
+      "description": "Bupropion is an NDRI antidepressant used to treat depression and aid smoking cessation.",
+      "uses": "Used for major depressive disorder, seasonal affective disorder, and smoking cessation.",
+      "how_it_works": "Increases dopamine and norepinephrine levels in the brain, improving mood.",
+      "dosage": "Adults: 150-300mg daily, or as prescribed.",
+      "side_effects": "Insomnia, dry mouth, headache, seizures (rare).",
+      "precautions": "Avoid if you have a seizure disorder or eating disorders. Monitor for mood changes.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "GSK",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/bupropion-oral-route/description/drg-20062478",
+        "https://www.webmd.com/drugs/2/drug-13507/bupropion-hcl-oral/details"
+      ]
+    },
+    {
+      "name": "Venlafaxine 75mg",
+      "description": "Venlafaxine is an SNRI antidepressant used to treat depression and anxiety disorders.",
+      "uses": "Used for major depressive disorder, generalized anxiety disorder, and social anxiety disorder.",
+      "how_it_works": "Increases serotonin and norepinephrine levels in the brain, improving mood.",
+      "dosage": "Adults: 75-225mg daily, or as prescribed.",
+      "side_effects": "Nausea, headache, insomnia, high blood pressure, sexual dysfunction.",
+      "precautions": "Avoid abrupt discontinuation. Monitor blood pressure regularly.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Pfizer",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/venlafaxine-oral-route/description/drg-20067379",
+        "https://www.webmd.com/drugs/2/drug-1456/venlafaxine-oral/details"
+      ]
+    },
+    {
+      "name": "Atorvastatin 10mg",
+      "description": "Atorvastatin is a statin used to lower cholesterol and reduce cardiovascular risk.",
+      "uses": "Used to lower LDL cholesterol, prevent heart attack, and stroke in high-risk patients.",
+      "how_it_works": "Inhibits HMG-CoA reductase, reducing cholesterol production in the liver.",
+      "dosage": "Adults: 10-80mg daily, or as prescribed.",
+      "side_effects": "Muscle pain, liver issues, digestive problems, increased blood sugar.",
+      "precautions": "Monitor liver function. Avoid if pregnant or breastfeeding.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Pfizer",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/atorvastatin-oral-route/description/drg-20067003",
+        "https://www.webmd.com/drugs/2/drug-841/atorvastatin-oral/details"
+      ]
+    },
+    {
+      "name": "Simvastatin 20mg",
+      "description": "Simvastatin is a statin used to lower cholesterol and reduce cardiovascular risk.",
+      "uses": "Used to lower LDL cholesterol, prevent heart attack, and stroke in high-risk patients.",
+      "how_it_works": "Inhibits HMG-CoA reductase, reducing cholesterol production in the liver.",
+      "dosage": "Adults: 20-40mg daily, taken in the evening, or as prescribed.",
+      "side_effects": "Muscle pain, liver issues, digestive problems, increased blood sugar.",
+      "precautions": "Monitor liver function. Avoid grapefruit juice and pregnancy.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Merck",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/simvastatin-oral-route/description/drg-20069006",
+        "https://www.webmd.com/drugs/2/drug-6105/simvastatin-oral/details"
+      ]
+    },
+    {
+      "name": "Rosuvastatin 5mg",
+      "description": "Rosuvastatin is a statin used to lower cholesterol and reduce cardiovascular risk.",
+      "uses": "Used to lower LDL cholesterol, increase HDL cholesterol, and prevent cardiovascular events.",
+      "how_it_works": "Inhibits HMG-CoA reductase, reducing cholesterol production in the liver.",
+      "dosage": "Adults: 5-40mg daily, or as prescribed.",
+      "side_effects": "Muscle pain, liver issues, headache, increased blood sugar.",
+      "precautions": "Monitor liver function. Avoid if pregnant or breastfeeding.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "AstraZeneca",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/rosuvastatin-oral-route/description/drg-20065889",
+        "https://www.webmd.com/drugs/2/drug-76535/rosuvastatin-oral/details"
+      ]
+    },
+    {
+      "name": "Pravastatin 20mg",
+      "description": "Pravastatin is a statin used to lower cholesterol and reduce cardiovascular risk.",
+      "uses": "Used to lower LDL cholesterol and prevent heart attack and stroke.",
+      "how_it_works": "Inhibits HMG-CoA reductase, reducing cholesterol production in the liver.",
+      "dosage": "Adults: 20-80mg daily, or as prescribed.",
+      "side_effects": "Muscle pain, liver issues, headache, nausea.",
+      "precautions": "Monitor liver function. Avoid if pregnant or breastfeeding.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Bristol-Myers Squibb",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/pravastatin-oral-route/description/drg-20068946",
+        "https://www.webmd.com/drugs/2/drug-6989/pravastatin-oral/details"
+      ]
+    },
+    {
+      "name": "Albuterol Inhaler",
+      "description": "Albuterol is a bronchodilator used to relieve asthma and COPD symptoms.",
+      "uses": "Used for asthma, bronchospasm, and chronic obstructive pulmonary disease.",
+      "how_it_works": "Relaxes airway muscles, improving airflow to the lungs.",
+      "dosage": "Adults: 1-2 puffs every 4-6 hours as needed, or as prescribed.",
+      "side_effects": "Tremors, nervousness, fast heart rate, throat irritation.",
+      "precautions": "Monitor heart rate. Avoid overuse. Consult a doctor if you have heart disease.",
+      "storage": "Store at room temperature, away from heat and open flame.",
+      "manufacturer": "Merck",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/albuterol-inhalation-route/description/drg-20073536",
+        "https://www.webmd.com/drugs/2/drug-4872/albuterol-inhalation/details"
+      ]
+    },
+    {
+      "name": "Fluticasone Inhaler",
+      "description": "Fluticasone is an inhaled corticosteroid used to manage asthma and COPD.",
+      "uses": "Used to prevent asthma attacks and manage chronic obstructive pulmonary disease.",
+      "how_it_works": "Reduces inflammation in the airways, improving breathing.",
+      "dosage": "Adults: 1-2 puffs twice daily, or as prescribed.",
+      "side_effects": "Throat irritation, hoarseness, oral thrush, headache.",
+      "precautions": "Rinse mouth after use to prevent thrush. Avoid if you have untreated infections.",
+      "storage": "Store at room temperature, away from heat and moisture.",
+      "manufacturer": "GSK",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/fluticasone-inhalation-route/description/drg-20067663",
+        "https://www.webmd.com/drugs/2/drug-77986/fluticasone-inhalation/details"
+      ]
+    },
+    {
+      "name": "Montelukast 10mg",
+      "description": "Montelukast is a leukotriene receptor antagonist used to manage asthma and allergies.",
+      "uses": "Used for asthma prevention, seasonal allergies, and exercise-induced bronchospasm.",
+      "how_it_works": "Blocks leukotrienes, reducing airway inflammation and constriction.",
+      "dosage": "Adults: 10mg daily in the evening, or as prescribed.",
+      "side_effects": "Headache, stomach pain, fatigue, mood changes (rare).",
+      "precautions": "Monitor for mood changes. Not for acute asthma attacks.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Merck",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/montelukast-oral-route/description/drg-20064902",
+        "https://www.webmd.com/drugs/2/drug-18802/montelukast-oral/details"
+      ]
+    },
+    {
+      "name": "Levothyroxine 50mcg",
+      "description": "Levothyroxine is a synthetic thyroid hormone used to treat hypothyroidism.",
+      "uses": "Used for hypothyroidism, goiter, and thyroid hormone replacement.",
+      "how_it_works": "Replaces or supplements thyroid hormone, regulating metabolism.",
+      "dosage": "Adults: 50-200mcg daily, or as prescribed, taken on an empty stomach.",
+      "side_effects": "Weight changes, hair loss, palpitations, heat intolerance.",
+      "precautions": "Monitor thyroid function. Avoid if you have untreated adrenal issues.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "AbbVie",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/levothyroxine-oral-route/description/drg-20072133",
+        "https://www.webmd.com/drugs/2/drug-1433/levothyroxine-oral/details"
+      ]
+    },
+    {
+      "name": "Liothyronine 25mcg",
+      "description": "Liothyronine is a synthetic T3 thyroid hormone used to treat hypothyroidism.",
+      "uses": "Used for hypothyroidism and myxedema coma.",
+      "how_it_works": "Replaces T3 thyroid hormone, regulating metabolism.",
+      "dosage": "Adults: 25-75mcg daily, or as prescribed.",
+      "side_effects": "Palpitations, nervousness, weight loss, heat intolerance.",
+      "precautions": "Monitor thyroid function. Avoid in patients with heart disease.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Pfizer",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/liothyronine-oral-route/description/drg-20069093",
+        "https://www.webmd.com/drugs/2/drug-7716/liothyronine-oral/details"
+      ]
+    },
+    {
+      "name": "Omeprazole 20mg",
+      "description": "Omeprazole is a proton pump inhibitor used to reduce stomach acid.",
+      "uses": "Used for GERD, ulcers, and heartburn.",
+      "how_it_works": "Blocks acid production in the stomach by inhibiting proton pumps.",
+      "dosage": "Adults: 20-40mg daily, or as prescribed, taken before meals.",
+      "side_effects": "Headache, nausea, diarrhea, bone fracture risk (long-term).",
+      "precautions": "Monitor for vitamin B12 deficiency with long-term use. Avoid if allergic to PPIs.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "AstraZeneca",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/omeprazole-oral-route/description/drg-20066836",
+        "https://www.webmd.com/drugs/2/drug-3766/omeprazole-oral/details"
+      ]
+    },
+    {
+      "name": "Esomeprazole 40mg",
+      "description": "Esomeprazole is a proton pump inhibitor used to reduce stomach acid.",
+      "uses": "Used for GERD, ulcers, and Zollinger-Ellison syndrome.",
+      "how_it_works": "Blocks acid production in the stomach by inhibiting proton pumps.",
+      "dosage": "Adults: 20-40mg daily, or as prescribed.",
+      "side_effects": "Headache, nausea, diarrhea, bone fracture risk (long-term).",
+      "precautions": "Monitor for magnesium deficiency with long-term use. Avoid if allergic to PPIs.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "AstraZeneca",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/esomeprazole-oral-route/description/drg-20072378",
+        "https://www.webmd.com/drugs/2/drug-20537/esomeprazole-oral/details"
+      ]
+    },
+    {
+      "name": "Ranitidine 150mg",
+      "description": "Ranitidine is an H2 blocker used to reduce stomach acid.",
+      "uses": "Used for heartburn, GERD, and ulcers.",
+      "how_it_works": "Blocks histamine receptors in the stomach, reducing acid production.",
+      "dosage": "Adults: 150mg twice daily, or as directed.",
+      "side_effects": "Headache, dizziness, constipation, diarrhea.",
+      "precautions": "Consult a doctor if you have kidney or liver disease. Note: withdrawn in some markets due to NDMA concerns.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Sanofi",
+      "prescription_required": false,
+      "references": [
+        "https://www.webmd.com/drugs/2/drug-4090/ranitidine-oral/details",
+        "https://www.drugs.com/ranitidine.html"
+      ]
+    },
+    {
+      "name": "Lansoprazole 30mg",
+      "description": "Lansoprazole is a proton pump inhibitor used to reduce stomach acid.",
+      "uses": "Used for GERD, ulcers, and erosive esophagitis.",
+      "how_it_works": "Blocks acid production in the stomach by inhibiting proton pumps.",
+      "dosage": "Adults: 15-30mg daily, or as prescribed, taken before meals.",
+      "side_effects": "Headache, nausea, diarrhea, abdominal pain.",
+      "precautions": "Monitor for bone fractures with long-term use. Avoid if allergic to PPIs.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Takeda",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/lansoprazole-oral-route/description/drg-20067214",
+        "https://www.webmd.com/drugs/2/drug-11450/lansoprazole-oral/details"
+      ]
+    },
+    {
+      "name": "Melatonin 3mg",
+      "description": "Melatonin is a natural hormone supplement used to improve sleep.",
+      "uses": "Used for insomnia, jet lag, and sleep disorders.",
+      "how_it_works": "Regulates the sleep-wake cycle by mimicking the body’s natural melatonin.",
+      "dosage": "Adults: 1-5mg at bedtime, or as directed.",
+      "side_effects": "Drowsiness, headache, dizziness, nausea.",
+      "precautions": "Avoid driving after use. Consult a doctor if you have autoimmune disorders.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Nature Made",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/melatonin-oral-route/description/drg-20061688",
+        "https://www.webmd.com/vitamins/ai/ingredientmono-940/melatonin"
+      ]
+    },
+    {
+      "name": "Zolpidem 10mg",
+      "description": "Zolpidem is a sedative-hypnotic used to treat insomnia.",
+      "uses": "Used for short-term treatment of insomnia (difficulty falling asleep).",
+      "how_it_works": "Enhances GABA activity in the brain, promoting sleep.",
+      "dosage": "Adults: 5-10mg at bedtime, or as prescribed.",
+      "side_effects": "Drowsiness, dizziness, headache, sleepwalking (rare).",
+      "precautions": "Avoid alcohol. Use caution with activities requiring alertness the next day.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Sanofi",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/zolpidem-oral-route/description/drg-20061195",
+        "https://www.webmd.com/drugs/2/drug-9690/zolpidem-oral/details"
+      ]
+    },
+    {
+      "name": "Trazodone 50mg",
+      "description": "Trazodone is an antidepressant used to treat depression and insomnia.",
+      "uses": "Used for depression and off-label for insomnia.",
+      "how_it_works": "Increases serotonin levels and has sedative effects.",
+      "dosage": "Adults: 50-100mg at bedtime for sleep, or as prescribed for depression.",
+      "side_effects": "Drowsiness, dizziness, dry mouth, blurred vision.",
+      "precautions": "Monitor for suicidal thoughts. Avoid if taking MAO inhibitors.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Pfizer",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/trazodone-oral-route/description/drg-20061280",
+        "https://www.webmd.com/drugs/2/drug-11188/trazodone-oral/details"
+      ]
+    },
+    {
+      "name": "Hydrocortisone 1%",
+      "description": "Hydrocortisone is a topical corticosteroid used to reduce skin inflammation.",
+      "uses": "Used for eczema, psoriasis, and allergic skin reactions.",
+      "how_it_works": "Reduces inflammation, itching, and redness by mimicking cortisol.",
+      "dosage": "Adults: Apply a thin layer to affected area 1-4 times daily, or as directed.",
+      "side_effects": "Skin irritation, thinning, burning, stinging.",
+      "precautions": "Avoid long-term use on large areas. Do not use on broken skin.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Johnson & Johnson",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/hydrocortisone-topical-application-route/description/drg-20073814",
+        "https://www.webmd.com/drugs/2/drug-10402/hydrocortisone-topical/details"
+      ]
+    },
+    {
+      "name": "Clotrimazole 1%",
+      "description": "Clotrimazole is a topical antifungal used to treat fungal skin infections.",
+      "uses": "Used for athlete’s foot, ringworm, and yeast infections.",
+      "how_it_works": "Disrupts fungal cell membranes, killing the fungus.",
+      "dosage": "Adults: Apply a thin layer to affected area twice daily for 2-4 weeks.",
+      "side_effects": "Skin irritation, burning, redness.",
+      "precautions": "Avoid contact with eyes. Consult a doctor if no improvement after 4 weeks.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Bayer",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/clotrimazole-topical-route/description/drg-20063196",
+        "https://www.webmd.com/drugs/2/drug-4316/clotrimazole-topical/details"
+      ]
+    },
+    {
+      "name": "Benzoyl Peroxide 5%",
+      "description": "Benzoyl peroxide is a topical medication used to treat acne.",
+      "uses": "Used for mild to moderate acne.",
+      "how_it_works": "Kills acne-causing bacteria and helps unclog pores.",
+      "dosage": "Adults: Apply a thin layer to affected area 1-2 times daily, or as directed.",
+      "side_effects": "Dryness, redness, peeling, burning sensation.",
+      "precautions": "Avoid contact with eyes and clothing. Use sunscreen due to skin sensitivity.",
+      "storage": "Store at room temperature, away from heat and moisture.",
+      "manufacturer": "Reckitt Benckiser",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/benzoyl-peroxide-topical-route/description/drg-20062425",
+        "https://www.webmd.com/drugs/2/drug-1344/benzoyl-peroxide-topical/details"
+      ]
+    },
+    {
+      "name": "Salicylic Acid 2%",
+      "description": "Salicylic acid is a topical medication used to treat acne and warts.",
+      "uses": "Used for acne, warts, and other skin conditions like psoriasis.",
+      "how_it_works": "Exfoliates skin and unclogs pores, reducing acne and softening warts.",
+      "dosage": "Adults: Apply to affected area 1-3 times daily, or as directed.",
+      "side_effects": "Skin irritation, dryness, peeling, stinging.",
+      "precautions": "Avoid broken skin or large areas. Consult a doctor if pregnant.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Blistex",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/salicylic-acid-topical-route/description/drg-20066030",
+        "https://www.webmd.com/drugs/2/drug-18/salicylic-acid-topical/details"
+      ]
+    },
+    {
+      "name": "Artificial Tears",
+      "description": "Artificial tears are lubricating eye drops used to relieve dry eyes.",
+      "uses": "Used for dry eye syndrome and eye irritation.",
+      "how_it_works": "Mimics natural tears to lubricate and soothe the eyes.",
+      "dosage": "Adults: 1-2 drops in affected eye(s) as needed, or as directed.",
+      "side_effects": "Temporary blurred vision, eye irritation, stinging.",
+      "precautions": "Avoid touching dropper tip to prevent contamination. Remove contact lenses before use.",
+      "storage": "Store at room temperature, away from heat and moisture.",
+      "manufacturer": "Alcon",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/artificial-tears-ophthalmic-route/description/drg-20067703",
+        "https://www.webmd.com/drugs/2/drug-807/artificial-tears/details"
+      ]
+    },
+    {
+      "name": "Naphazoline 0.1%",
+      "description": "Naphazoline is a decongestant eye drop used to relieve eye redness.",
+      "uses": "Used for eye redness due to allergies or irritation.",
+      "how_it_works": "Constricts blood vessels in the eye, reducing redness.",
+      "dosage": "Adults: 1-2 drops in affected eye(s) every 3-4 hours, up to 4 times daily.",
+      "side_effects": "Eye irritation, stinging, rebound redness (with overuse).",
+      "precautions": "Avoid prolonged use. Consult a doctor if you have glaucoma or heart disease.",
+      "storage": "Store at room temperature, away from heat and moisture.",
+      "manufacturer": "Johnson & Johnson",
+      "prescription_required": false,
+      "references": [
+        "https://www.webmd.com/drugs/2/drug-56065/naphazoline-ophthalmic/details",
+        "https://www.drugs.com/mtm/naphazoline-ophthalmic.html"
+      ]
+    },
+    {
+      "name": "Fluoride Toothpaste",
+      "description": "Fluoride toothpaste is used to prevent tooth decay and strengthen enamel.",
+      "uses": "Used for cavity prevention and maintaining oral health.",
+      "how_it_works": "Strengthens tooth enamel and inhibits bacterial growth in the mouth.",
+      "dosage": "Adults: Brush teeth twice daily with a pea-sized amount, or as directed.",
+      "side_effects": "Rare: allergic reactions, tooth discoloration (with overuse in children).",
+      "precautions": "Avoid swallowing. Supervise children under 6 during brushing.",
+      "storage": "Store at room temperature, away from moisture.",
+      "manufacturer": "Colgate-Palmolive",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/toothpaste/faq-20058466",
+        "https://www.webmd.com/drugs/2/drug-16472/fluoride-dental/details"
+      ]
+    },
+    {
+      "name": "Mouthwash",
+      "description": "Antiseptic mouthwash is used to reduce oral bacteria and improve oral hygiene.",
+      "uses": "Used for gingivitis, bad breath, and plaque reduction.",
+      "how_it_works": "Kills bacteria in the mouth, reducing plaque and gum inflammation.",
+      "dosage": "Adults: Rinse with 10-20ml for 30 seconds twice daily, or as directed.",
+      "side_effects": "Mouth irritation, dry mouth, taste changes.",
+      "precautions": "Avoid swallowing. Not for children under 6 unless directed by a dentist.",
+      "storage": "Store at room temperature, away from heat and moisture.",
+      "manufacturer": "Johnson & Johnson",
+      "prescription_required": false,
+      "references": [
+        "https://www.webmd.com/oral-health/guide/mouth-rinse",
+        "https://www.drugs.com/cdi/listerine-antiseptic.html"
+      ]
+    },
+    {
+      "name": "Diclofenac 50mg",
+      "description": "Diclofenac is an NSAID used to relieve pain and inflammation.",
+      "uses": "Used for arthritis, menstrual cramps, and acute pain.",
+      "how_it_works": "Inhibits prostaglandin production, reducing pain and inflammation.",
+      "dosage": "Adults: 50mg 2-3 times daily, or as prescribed.",
+      "side_effects": "Stomach upset, nausea, heartburn, increased bleeding risk.",
+      "precautions": "Avoid if you have ulcers, heart disease, or are allergic to NSAIDs.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Novartis",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/diclofenac-oral-route/description/drg-20069748",
+        "https://www.webmd.com/drugs/2/drug-4284/diclofenac-oral/details"
+      ]
+    },
+    {
+      "name": "Tramadol 50mg",
+      "description": "Tramadol is an opioid analgesic used to treat moderate to severe pain.",
+      "uses": "Used for acute and chronic pain, such as post-surgical or injury-related pain.",
+      "how_it_works": "Binds to opioid receptors and inhibits serotonin and norepinephrine reuptake.",
+      "dosage": "Adults: 50-100mg every 4-6 hours, not to exceed 400mg daily.",
+      "side_effects": "Dizziness, nausea, constipation, seizure risk (rare).",
+      "precautions": "Avoid alcohol. Monitor for dependency or breathing issues.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Janssen",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/tramadol-oral-route/description/drg-20068050",
+        "https://www.webmd.com/drugs/2/drug-4398/tramadol-oral/details"
+      ]
+    },
+    {
+      "name": "Codeine 30mg",
+      "description": "Codeine is an opioid used to treat pain and suppress cough.",
+      "uses": "Used for mild to moderate pain and as a cough suppressant.",
+      "how_it_works": "Binds to opioid receptors, reducing pain signals and suppressing cough reflex.",
+      "dosage": "Adults: 15-60mg every 4-6 hours, or as prescribed.",
+      "side_effects": "Drowsiness, constipation, nausea, respiratory depression (rare).",
+      "precautions": "Avoid alcohol. Monitor for dependency or breathing issues.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Johnson & Johnson",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/codeine-oral-route/description/drg-20074023",
+        "https://www.webmd.com/drugs/2/drug-8197/codeine-sulfate-oral/details"
+      ]
+    },
+    {
+      "name": "Morphine 15mg",
+      "description": "Morphine is a strong opioid used to treat severe pain.",
+      "uses": "Used for severe pain, such as post-surgical or cancer-related pain.",
+      "how_it_works": "Binds to opioid receptors in the brain, reducing pain perception.",
+      "dosage": "Adults: 10-30mg every 4 hours, or as prescribed.",
+      "side_effects": "Drowsiness, constipation, nausea, respiratory depression.",
+      "precautions": "Avoid alcohol. Monitor for dependency and breathing issues.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Purdue Pharma",
+      "prescription_required": true,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/morphine-oral-route/description/drg-20074216",
+        "https://www.webmd.com/drugs/2/drug-327/morphine-oral/details"
+      ]
+    },
+    {
+      "name": "Folic Acid 400mcg",
+      "description": "Folic acid is a B vitamin used to prevent and treat folate deficiency.",
+      "uses": "Used for folate deficiency, pregnancy, and anemia.",
+      "how_it_works": "Supports DNA synthesis and red blood cell production.",
+      "dosage": "Adults: 400-800mcg daily, or as directed.",
+      "side_effects": "Rare: nausea, bloating, allergic reactions.",
+      "precautions": "Consult a doctor if you have anemia or vitamin B12 deficiency.",
+      "storage": "Store at room temperature, away from moisture and heat.",
+      "manufacturer": "Nature Made",
+      "prescription_required": false,
+      "references": [
+        "https://www.mayoclinic.org/drugs-supplements/folate-oral-route/description/drg-20063984",
+        "https://www.webmd.com/vitamins/ai/ingredientmono-1017/folic-acid"
+      ]
+    },
+    [
+      {
+        "name": "Iron 65mg",
+        "description": "Iron is a mineral supplement used to treat or prevent iron deficiency anemia.",
+        "uses": "Used for iron deficiency anemia and during pregnancy to support red blood cell production.",
+        "how_it_works": "Supports hemoglobin production, enabling oxygen transport in the blood.",
+        "dosage": "Adults: 65mg elemental iron daily, or as prescribed, taken with food to reduce stomach upset.",
+        "side_effects": "Constipation, nausea, stomach upset, dark stools.",
+        "precautions": "Avoid taking with dairy or antacids. Consult a doctor if you have hemochromatosis or gastrointestinal issues.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Nature Made",
+        "prescription_required": false,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/iron-supplement-oral-route-parenteral-route/description/drg-20070148",
+          "https://www.webmd.com/vitamins/ai/ingredientmono-912/iron"
+        ]
+      },
+      {
+        "name": "Calcium 600mg",
+        "description": "Calcium is a mineral supplement used to support bone health and prevent deficiency.",
+        "uses": "Used for osteoporosis prevention, calcium deficiency, and during pregnancy.",
+        "how_it_works": "Provides calcium to support bone strength and muscle function.",
+        "dosage": "Adults: 600-1200mg daily, or as directed, taken with food.",
+        "side_effects": "Constipation, bloating, kidney stones (with excessive doses).",
+        "precautions": "Avoid excessive doses. Consult a doctor if you have kidney disease or high calcium levels.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Nature Made",
+        "prescription_required": false,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/calcium-oral-route/description/drg-20068376",
+          "https://www.webmd.com/vitamins/ai/ingredientmono-781/calcium"
+        ]
+      },
+      {
+        "name": "Magnesium 250mg",
+        "description": "Magnesium is a mineral supplement used to support muscle and nerve function.",
+        "uses": "Used for magnesium deficiency, muscle cramps, and heart health.",
+        "how_it_works": "Supports enzyme function, muscle relaxation, and nerve transmission.",
+        "dosage": "Adults: 250-400mg daily, or as directed, taken with food.",
+        "side_effects": "Diarrhea, nausea, stomach upset (with high doses).",
+        "precautions": "Avoid if you have kidney disease. Consult a doctor if taking other medications.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Nature's Bounty",
+        "prescription_required": false,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/magnesium-supplement-oral-route-parenteral-route/description/drg-20070730",
+          "https://www.webmd.com/vitamins/ai/ingredientmono-998/magnesium"
+        ]
+      },
+      {
+        "name": "Zinc 30mg",
+        "description": "Zinc is a mineral supplement used to support immune function and wound healing.",
+        "uses": "Used for zinc deficiency, immune support, and wound healing.",
+        "how_it_works": "Supports immune cell function and enzyme activity.",
+        "dosage": "Adults: 15-30mg daily, or as directed, taken with food.",
+        "side_effects": "Nausea, stomach upset, metallic taste, diarrhea.",
+        "precautions": "Avoid excessive doses. Consult a doctor if you have kidney disease.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Nature Made",
+        "prescription_required": false,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/zinc-oral-route/description/drg-20070269",
+          "https://www.webmd.com/vitamins/ai/ingredientmono-982/zinc"
+        ]
+      },
+      {
+        "name": "Clarithromycin 500mg",
+        "description": "Clarithromycin is a macrolide antibiotic used to treat bacterial infections.",
+        "uses": "Used for respiratory infections, skin infections, and Helicobacter pylori infections.",
+        "how_it_works": "Inhibits bacterial protein synthesis, stopping bacterial growth.",
+        "dosage": "Adults: 250-500mg every 12 hours, or as prescribed, for 7-14 days.",
+        "side_effects": "Nausea, diarrhea, taste changes, liver issues (rare).",
+        "precautions": "Avoid if allergic to macrolides. Monitor liver function.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Abbott",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/clarithromycin-oral-route/description/drg-20067681",
+          "https://www.webmd.com/drugs/2/drug-17169/clarithromycin-oral/details"
+        ]
+      },
+      {
+        "name": "Levofloxacin 500mg",
+        "description": "Levofloxacin is a fluoroquinolone antibiotic used to treat bacterial infections.",
+        "uses": "Used for pneumonia, urinary tract infections, and sinusitis.",
+        "how_it_works": "Inhibits bacterial DNA replication, killing bacteria.",
+        "dosage": "Adults: 250-750mg daily, or as prescribed, for 7-14 days.",
+        "side_effects": "Nausea, diarrhea, tendon pain, tendon rupture (rare).",
+        "precautions": "Avoid if you have tendon issues or myasthenia gravis. Consult a doctor if pregnant.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Johnson & Johnson",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/levofloxacin-oral-route/description/drg-20064518",
+          "https://www.webmd.com/drugs/2/drug-14495/levofloxacin-oral/details"
+        ]
+      },
+      {
+        "name": "Cephalexin 500mg",
+        "description": "Cephalexin is a cephalosporin antibiotic used to treat bacterial infections.",
+        "uses": "Used for skin infections, urinary tract infections, and respiratory infections.",
+        "how_it_works": "Prevents bacterial cell wall formation, killing bacteria.",
+        "dosage": "Adults: 250-1000mg every 6 hours, or as prescribed, for 7-14 days.",
+        "side_effects": "Nausea, diarrhea, rash, allergic reactions.",
+        "precautions": "Avoid if allergic to cephalosporins or penicillins. Complete the full course.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Teva",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/cephalexin-oral-route/description/drg-20073325",
+          "https://www.webmd.com/drugs/2/drug-11757/cephalexin-oral/details"
+        ]
+      },
+      {
+        "name": "Prednisone 10mg",
+        "description": "Prednisone is a corticosteroid used to reduce inflammation and suppress the immune system.",
+        "uses": "Used for arthritis, allergic reactions, autoimmune disorders, and asthma.",
+        "how_it_works": "Mimics cortisol, reducing inflammation and immune response.",
+        "dosage": "Adults: 5-60mg daily, or as prescribed, often tapered over time.",
+        "side_effects": "Weight gain, insomnia, mood changes, increased blood sugar.",
+        "precautions": "Avoid abrupt discontinuation. Monitor for infections and bone health.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Pfizer",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/prednisone-oral-route/description/drg-20075269",
+          "https://www.webmd.com/drugs/2/drug-6007/prednisone-oral/details"
+        ]
+      },
+      {
+        "name": "Methylprednisolone 4mg",
+        "description": "Methylprednisolone is a corticosteroid used to reduce inflammation and immune response.",
+        "uses": "Used for arthritis, allergic reactions, and autoimmune conditions.",
+        "how_it_works": "Mimics cortisol, suppressing inflammation and immune activity.",
+        "dosage": "Adults: 4-48mg daily, or as prescribed, often in a tapering dose.",
+        "side_effects": "Weight gain, insomnia, stomach upset, increased blood sugar.",
+        "precautions": "Avoid abrupt discontinuation. Monitor for infections and bone health.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Pfizer",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/methylprednisolone-oral-route/description/drg-20075237",
+          "https://www.webmd.com/drugs/2/drug-6470/methylprednisolone-oral/details"
+        ]
+      },
+      {
+        "name": "Lorazepam 1mg",
+        "description": "Lorazepam is a benzodiazepine used to treat anxiety and seizures.",
+        "uses": "Used for anxiety disorders, insomnia due to anxiety, and status epilepticus.",
+        "how_it_works": "Enhances GABA activity in the brain, producing a calming effect.",
+        "dosage": "Adults: 1-3mg daily, or as prescribed, often divided into 2-3 doses.",
+        "side_effects": "Drowsiness, dizziness, confusion, dependency (with prolonged use).",
+        "precautions": "Avoid alcohol. Monitor for dependency. Not for long-term use.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Pfizer",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/lorazepam-oral-route/description/drg-20072296",
+          "https://www.webmd.com/drugs/2/drug-8215/lorazepam-oral/details"
+        ]
+      },
+      {
+        "name": "Alprazolam 0.5mg",
+        "description": "Alprazolam is a benzodiazepine used to treat anxiety and panic disorders.",
+        "uses": "Used for anxiety disorders and panic attacks.",
+        "how_it_works": "Enhances GABA activity in the brain, reducing anxiety and panic.",
+        "dosage": "Adults: 0.25-0.5mg 2-3 times daily, or as prescribed.",
+        "side_effects": "Drowsiness, dizziness, confusion, dependency (with prolonged use).",
+        "precautions": "Avoid alcohol. Monitor for dependency. Not for long-term use.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Pfizer",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/alprazolam-oral-route/description/drg-20061040",
+          "https://www.webmd.com/drugs/2/drug-8171/alprazolam-oral/details"
+        ]
+      },
+      {
+        "name": "Diazepam 5mg",
+        "description": "Diazepam is a benzodiazepine used to treat anxiety, muscle spasms, and seizures.",
+        "uses": "Used for anxiety, muscle spasms, and seizure disorders.",
+        "how_it_works": "Enhances GABA activity, producing a calming effect and muscle relaxation.",
+        "dosage": "Adults: 2-10mg 2-4 times daily, or as prescribed.",
+        "side_effects": "Drowsiness, fatigue, muscle weakness, dependency (with prolonged use).",
+        "precautions": "Avoid alcohol. Monitor for dependency. Not for long-term use.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Roche",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/diazepam-oral-route/description/drg-20072333",
+          "https://www.webmd.com/drugs/2/drug-11116/diazepam-oral/details"
+        ]
+      },
+      {
+        "name": "Warfarin 5mg",
+        "description": "Warfarin is an anticoagulant used to prevent and treat blood clots.",
+        "uses": "Used for atrial fibrillation, deep vein thrombosis, and pulmonary embolism.",
+        "how_it_works": "Inhibits vitamin K-dependent clotting factors, reducing blood clot formation.",
+        "dosage": "Adults: 2-10mg daily, or as prescribed, adjusted based on INR monitoring.",
+        "side_effects": "Bleeding, bruising, nausea, hair loss.",
+        "precautions": "Monitor INR regularly. Avoid sudden diet changes or alcohol.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Bristol-Myers Squibb",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/warfarin-oral-route/description/drg-20068341",
+          "https://www.webmd.com/drugs/2/drug-305/warfarin-oral/details"
+        ]
+      },
+      {
+        "name": "Apixaban 5mg",
+        "description": "Apixaban is a direct oral anticoagulant used to prevent and treat blood clots.",
+        "uses": "Used for atrial fibrillation, deep vein thrombosis, and pulmonary embolism.",
+        "how_it_works": "Inhibits factor Xa, reducing blood clot formation.",
+        "dosage": "Adults: 2.5-5mg twice daily, or as prescribed.",
+        "side_effects": "Bleeding, bruising, nausea, anemia.",
+        "precautions": "Monitor for bleeding. Avoid if you have severe liver disease.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Bristol-Myers Squibb",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/apixaban-oral-route/description/drg-20060729",
+          "https://www.webmd.com/drugs/2/drug-163073/apixaban-oral/details"
+        ]
+      },
+      {
+        "name": "Rivaroxaban 20mg",
+        "description": "Rivaroxaban is a direct oral anticoagulant used to prevent and treat blood clots.",
+        "uses": "Used for atrial fibrillation, deep vein thrombosis, and post-surgical clot prevention.",
+        "how_it_works": "Inhibits factor Xa, reducing blood clot formation.",
+        "dosage": "Adults: 15-20mg daily, or as prescribed, taken with food.",
+        "side_effects": "Bleeding, bruising, dizziness, liver issues (rare).",
+        "precautions": "Monitor for bleeding. Avoid if you have severe kidney or liver disease.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Bayer",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/rivaroxaban-oral-route/description/drg-20075013",
+          "https://www.webmd.com/drugs/2/drug-156339/rivaroxaban-oral/details"
+        ]
+      },
+      {
+        "name": "Clopidogrel 75mg",
+        "description": "Clopidogrel is an antiplatelet drug used to prevent blood clots.",
+        "uses": "Used to prevent heart attack, stroke, and in patients with stents or heart disease.",
+        "how_it_works": "Inhibits platelet aggregation, reducing clot formation.",
+        "dosage": "Adults: 75mg daily, or as prescribed.",
+        "side_effects": "Bleeding, bruising, stomach upset, diarrhea.",
+        "precautions": "Monitor for bleeding. Avoid if you have active bleeding or liver disease.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Sanofi",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/clopidogrel-oral-route/description/drg-20063146",
+          "https://www.webmd.com/drugs/2/drug-5190/clopidogrel-oral/details"
+        ]
+      },
+      {
+        "name": "Gabapentin 300mg",
+        "description": "Gabapentin is an anticonvulsant used to treat seizures and nerve pain.",
+        "uses": "Used for epilepsy, neuropathic pain, and restless legs syndrome.",
+        "how_it_works": "Modulates nerve activity, reducing seizures and pain signals.",
+        "dosage": "Adults: 300-1200mg three times daily, or as prescribed.",
+        "side_effects": "Drowsiness, dizziness, fatigue, weight gain.",
+        "precautions": "Avoid abrupt discontinuation. Monitor for mood changes or suicidal thoughts.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Pfizer",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/gabapentin-oral-route/description/drg-20064011",
+          "https://www.webmd.com/drugs/2/drug-14208/gabapentin-oral/details"
+        ]
+      },
+      {
+        "name": "Pregabalin 75mg",
+        "description": "Pregabalin is an anticonvulsant used to treat nerve pain and seizures.",
+        "uses": "Used for neuropathic pain, fibromyalgia, and partial seizures.",
+        "how_it_works": "Reduces nerve excitability, decreasing pain and seizure activity.",
+        "dosage": "Adults: 75-300mg twice daily, or as prescribed.",
+        "side_effects": "Dizziness, drowsiness, weight gain, blurred vision.",
+        "precautions": "Avoid abrupt discontinuation. Monitor for mood changes or dependency.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Pfizer",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/pregabalin-oral-route/description/drg-20067411",
+          "https://www.webmd.com/drugs/2/drug-93954/pregabalin-oral/details"
+        ]
+      },
+      {
+        "name": "Levetiracetam 500mg",
+        "description": "Levetiracetam is an anticonvulsant used to treat seizures.",
+        "uses": "Used for partial-onset, myoclonic, and tonic-clonic seizures in epilepsy.",
+        "how_it_works": "Modulates neurotransmitter release, reducing seizure activity.",
+        "dosage": "Adults: 500-1500mg twice daily, or as prescribed.",
+        "side_effects": "Drowsiness, dizziness, fatigue, mood changes.",
+        "precautions": "Monitor for mood changes or suicidal thoughts. Avoid abrupt discontinuation.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "UCB Pharma",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/levetiracetam-oral-route/description/drg-20068010",
+          "https://www.webmd.com/drugs/2/drug-17662/levetiracetam-oral/details"
+        ]
+      },
+      {
+        "name": "Lamotrigine 100mg",
+        "description": "Lamotrigine is an anticonvulsant used to treat seizures and bipolar disorder.",
+        "uses": "Used for epilepsy and maintenance treatment of bipolar I disorder.",
+        "how_it_works": "Stabilizes neuronal membranes, reducing seizure activity and mood swings.",
+        "dosage": "Adults: 25-200mg daily, or as prescribed, titrated slowly.",
+        "side_effects": "Rash, dizziness, headache, serious skin reactions (rare).",
+        "precautions": "Monitor for rash. Avoid abrupt discontinuation.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "GSK",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/lamotrigine-oral-route/description/drg-20067449",
+          "https://www.webmd.com/drugs/2/drug-4582/lamotrigine-oral/details"
+        ]
+      },
+      {
+        "name": "Propranolol 40mg",
+        "description": "Propranolol is a beta-blocker used to treat high blood pressure and anxiety.",
+        "uses": "Used for hypertension, angina, tremors, and performance anxiety.",
+        "how_it_works": "Blocks beta receptors, slowing heart rate and reducing blood pressure.",
+        "dosage": "Adults: 40-120mg daily, or as prescribed, often divided into doses.",
+        "side_effects": "Fatigue, dizziness, slow heart rate, cold hands/feet.",
+        "precautions": "Avoid abrupt discontinuation. Consult a doctor if you have asthma or diabetes.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "AstraZeneca",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/propranolol-oral-route/description/drg-20071146",
+          "https://www.webmd.com/drugs/2/drug-10404/propranolol-oral/details"
+        ]
+      },
+      {
+        "name": "Atenolol 50mg",
+        "description": "Atenolol is a beta-blocker used to treat high blood pressure and heart conditions.",
+        "uses": "Used for hypertension, angina, and post-heart attack management.",
+        "how_it_works": "Blocks beta-1 receptors, reducing heart rate and blood pressure.",
+        "dosage": "Adults: 25-100mg daily, or as prescribed.",
+        "side_effects": "Fatigue, dizziness, slow heart rate, cold extremities.",
+        "precautions": "Avoid abrupt discontinuation. Consult a doctor if you have asthma or diabetes.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "AstraZeneca",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/atenolol-oral-route/description/drg-20071070",
+          "https://www.webmd.com/drugs/2/drug-11035/atenolol-oral/details"
+        ]
+      },
+      {
+        "name": "Carvedilol 6.25mg",
+        "description": "Carvedilol is a beta-blocker used to treat heart failure and high blood pressure.",
+        "uses": "Used for heart failure, hypertension, and post-heart attack left ventricular dysfunction.",
+        "how_it_works": "Blocks alpha and beta receptors, reducing blood pressure and heart workload.",
+        "dosage": "Adults: 6.25-25mg twice daily, or as prescribed.",
+        "side_effects": "Dizziness, fatigue, low blood pressure, weight gain.",
+        "precautions": "Avoid abrupt discontinuation. Monitor for low blood pressure.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "GSK",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/carvedilol-oral-route/description/drg-20067565",
+          "https://www.webmd.com/drugs/2/drug-1634/carvedilol-oral/details"
+        ]
+      },
+      {
+        "name": "Spironolactone 25mg",
+        "description": "Spironolactone is a diuretic used to treat fluid retention and high blood pressure.",
+        "uses": "Used for heart failure, edema, hypertension, and hyperaldosteronism.",
+        "how_it_works": "Blocks aldosterone, increasing water and sodium excretion while retaining potassium.",
+        "dosage": "Adults: 25-100mg daily, or as prescribed.",
+        "side_effects": "High potassium, dizziness, breast tenderness, rash.",
+        "precautions": "Monitor potassium levels. Avoid if you have kidney disease or hyperkalemia.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Pfizer",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/spironolactone-oral-route/description/drg-20071534",
+          "https://www.webmd.com/drugs/2/drug-6288/spironolactone-oral/details"
+        ]
+      },
+      {
+        "name": "Furosemide 40mg",
+        "description": "Furosemide is a loop diuretic used to treat fluid retention and high blood pressure.",
+        "uses": "Used for edema due to heart failure, liver disease, or kidney disease, and hypertension.",
+        "how_it_works": "Inhibits sodium and water reabsorption in the kidneys, increasing urine output.",
+        "dosage": "Adults: 20-80mg daily, or as prescribed.",
+        "side_effects": "Dehydration, low potassium, dizziness, hearing loss (rare).",
+        "precautions": "Monitor electrolytes. Avoid if you have severe kidney disease or dehydration.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Sanofi",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/furosemide-oral-route/description/drg-20071281",
+          "https://www.webmd.com/drugs/2/drug-5512/furosemide-oral/details"
+        ]
+      },
+      {
+        "name": "Pantoprazole 40mg",
+        "description": "Pantoprazole is a proton pump inhibitor used to reduce stomach acid.",
+        "uses": "Used for GERD, ulcers, and Zollinger-Ellison syndrome.",
+        "how_it_works": "Blocks acid production in the stomach by inhibiting proton pumps.",
+        "dosage": "Adults: 40mg daily, or as prescribed, taken before meals.",
+        "side_effects": "Headache, diarrhea, nausea, bone fracture risk (long-term).",
+        "precautions": "Monitor for magnesium deficiency with long-term use. Avoid if allergic to PPIs.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Pfizer",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/pantoprazole-oral-route/description/drg-20071458",
+          "https://www.webmd.com/drugs/2/drug-17633/pantoprazole-oral/details"
+        ]
+      },
+      {
+        "name": "Famotidine 20mg",
+        "description": "Famotidine is an H2 blocker used to reduce stomach acid.",
+        "uses": "Used for heartburn, GERD, and ulcers.",
+        "how_it_works": "Blocks histamine receptors in the stomach, reducing acid production.",
+        "dosage": "Adults: 20-40mg daily, or as directed.",
+        "side_effects": "Headache, dizziness, constipation, diarrhea.",
+        "precautions": "Consult a doctor if you have kidney disease. Monitor for prolonged use.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Johnson & Johnson",
+        "prescription_required": false,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/famotidine-oral-route/description/drg-20072972",
+          "https://www.webmd.com/drugs/2/drug-5035/famotidine-oral/details"
+        ]
+      },
+      {
+        "name": "Bisoprolol 5mg",
+        "description": "Bisoprolol is a beta-blocker used to treat high blood pressure and heart failure.",
+        "uses": "Used for hypertension and heart failure.",
+        "how_it_works": "Blocks beta-1 receptors, reducing heart rate and blood pressure.",
+        "dosage": "Adults: 5-20mg daily, or as prescribed.",
+        "side_effects": "Fatigue, dizziness, slow heart rate, cold extremities.",
+        "precautions": "Avoid abrupt discontinuation. Consult a doctor if you have asthma or diabetes.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Merck",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/bisoprolol-oral-route/description/drg-20071022",
+          "https://www.webmd.com/drugs/2/drug-18658/bisoprolol-fumarate-oral/details"
+        ]
+      },
+      {
+        "name": "Allopurinol 100mg",
+        "description": "Allopurinol is used to treat gout and high uric acid levels.",
+        "uses": "Used for gout prevention and kidney stones caused by uric acid.",
+        "how_it_works": "Inhibits xanthine oxidase, reducing uric acid production.",
+        "dosage": "Adults: 100-300mg daily, or as prescribed.",
+        "side_effects": "Rash, nausea, liver issues, severe allergic reactions (rare).",
+        "precautions": "Monitor liver function. Avoid if you have a history of severe reactions.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "GSK",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/allopurinol-oral-route/description/drg-20075476",
+          "https://www.webmd.com/drugs/2/drug-8610/allopurinol-oral/details"
+        ]
+      },
+      {
+        "name": "Colchicine 0.6mg",
+        "description": "Colchicine is used to treat and prevent gout flares.",
+        "uses": "Used for acute gout attacks and familial Mediterranean fever.",
+        "how_it_works": "Reduces inflammation by inhibiting microtubule formation in white blood cells.",
+        "dosage": "Adults: 1.2mg at first sign of gout flare, followed by 0.6mg one hour later, or as prescribed.",
+        "side_effects": "Nausea, diarrhea, abdominal pain, bone marrow suppression (rare).",
+        "precautions": "Avoid if you have severe kidney or liver disease. Monitor for toxicity.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Takeda",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/colchicine-oral-route/description/drg-20067688",
+          "https://www.webmd.com/drugs/2/drug-8640/colchicine-oral/details"
+        ]
+      },
+      {
+        "name": "Ondansetron 4mg",
+        "description": "Ondansetron is an antiemetic used to prevent nausea and vomiting.",
+        "uses": "Used for nausea and vomiting due to chemotherapy, radiation, or surgery.",
+        "how_it_works": "Blocks serotonin receptors in the brain and gut, reducing nausea.",
+        "dosage": "Adults: 4-8mg every 8 hours, or as prescribed.",
+        "side_effects": "Headache, constipation, fatigue, QT prolongation (rare).",
+        "precautions": "Monitor for heart rhythm changes. Avoid if allergic to 5-HT3 antagonists.",
+        "storage": "Store at room temperature, away from moisture and heat.",
+        "manufacturer": "Novartis",
+        "prescription_required": true,
+        "references": [
+          "https://www.mayoclinic.org/drugs-supplements/ondansetron-oral-route-oromucosal-route/description/drg-20074421",
+          "https://www.webmd.com/drugs/2/drug-30/ondansetron-oral/details"
+        ]
+      }
+    ]
+] 

@@ -1,0 +1,452 @@
+[
+  {
+    "name": "Complete Blood Count (CBC)",
+    "description": "A CBC measures different components of your blood, including red and white blood cells, hemoglobin, hematocrit, and platelets.",
+    "purpose": "To evaluate overall health and detect a variety of disorders, such as anemia, infection, and leukemia.",
+    "when_to_get": "If you have symptoms like weakness, fatigue, fever, inflammation, bruising, or bleeding.",
+    "preparation": "No special preparation is needed. You can eat and drink normally unless your doctor advises otherwise.",
+    "procedure": "A blood sample is taken from a vein in your arm using a small needle.",
+    "normal_ranges": "Ranges vary by age and gender. Example: WBC 4,500-11,000 cells/mcL. Always consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "Usually within 24 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/complete-blood-count/about/pac-20384919",
+      "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"
+    ]
+  },
+  {
+    "name": "Blood Glucose Test",
+    "description": "Measures the level of glucose (sugar) in your blood after fasting.",
+    "purpose": "To screen for, diagnose, and monitor diabetes or prediabetes.",
+    "when_to_get": "If you have symptoms of high or low blood sugar, or as part of a routine health check.",
+    "preparation": "8-12 hours fasting required. Only water is allowed before the test.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Normal: 70-99 mg/dL. Prediabetes: 100-125 mg/dL. Diabetes: 126 mg/dL or higher. Always consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "A few hours to 1 day.",
+    "references": [
+      "https://www.webmd.com/diabetes/guide/fasting-blood-sugar-test",
+      "https://www.mayoclinic.org/tests-procedures/blood-sugar-test/about/pac-20385235"
+    ]
+  },
+  {
+    "name": "Hemoglobin A1c",
+    "description": "Measures your average blood sugar levels over the past 2-3 months.",
+    "purpose": "To diagnose and monitor diabetes.",
+    "when_to_get": "If you have diabetes or are at risk for diabetes.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Normal: below 5.7%. Prediabetes: 5.7%-6.4%. Diabetes: 6.5% or higher.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "Usually within 24 hours.",
+    "references": [
+      "https://www.cdc.gov/diabetes/managing/managing-blood-sugar/a1c.html",
+      "https://www.mayoclinic.org/tests-procedures/a1c-test/about/pac-20384643"
+    ]
+  },
+  {
+    "name": "Lipid Profile",
+    "description": "A group of tests that measure the amount of cholesterol and triglycerides in your blood.",
+    "purpose": "To assess your risk of developing cardiovascular disease.",
+    "when_to_get": "As part of a routine health check, or if you have risk factors for heart disease.",
+    "preparation": "You may be asked to fast (no food or drink except water) for 9-12 hours before the test.",
+    "procedure": "A blood sample is taken from a vein in your arm.",
+    "normal_ranges": "Total cholesterol: less than 200 mg/dL. LDL: less than 100 mg/dL. HDL: 40 mg/dL or higher. Triglycerides: less than 150 mg/dL. Always consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "Usually within 24 hours.",
+    "references": [
+      "https://www.nhlbi.nih.gov/health/lab-test/lipid-panel",
+      "https://www.mayoclinic.org/tests-procedures/cholesterol-test/about/pac-20384601"
+    ]
+  },
+  {
+    "name": "Cardiac Enzymes",
+    "description": "Measures enzymes released into the blood when the heart muscle is damaged.",
+    "purpose": "To help diagnose a heart attack or other heart conditions.",
+    "when_to_get": "If you have chest pain or symptoms of a heart attack.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Normal values depend on the specific enzyme. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "A few hours.",
+    "references": [
+      "https://www.heart.org/en/health-topics/heart-attack/diagnosing-a-heart-attack/cardiac-biomarker-tests",
+      "https://medlineplus.gov/lab-tests/cardiac-enzyme-tests/"
+    ]
+  },
+  {
+    "name": "Thyroid Function Test",
+    "description": "Measures levels of thyroid hormones (T3, T4) and TSH in your blood.",
+    "purpose": "To diagnose thyroid disorders such as hypothyroidism or hyperthyroidism.",
+    "when_to_get": "If you have symptoms of thyroid dysfunction (fatigue, weight changes, etc.).",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "TSH: 0.4-4.0 mIU/L. T3 and T4 ranges vary. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24-48 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/thyroid-function-tests/about/pac-20355247",
+      "https://medlineplus.gov/lab-tests/thyroid-function-tests/"
+    ]
+  },
+  {
+    "name": "Cortisol Test",
+    "description": "Measures the level of cortisol, a stress hormone, in your blood.",
+    "purpose": "To diagnose disorders of the adrenal gland, such as Addison's disease or Cushing's syndrome.",
+    "when_to_get": "If you have symptoms of adrenal gland disorders.",
+    "preparation": "Morning sample preferred. Follow your doctor's instructions.",
+    "procedure": "A blood sample is drawn from a vein in your arm, or a saliva/urine sample may be used.",
+    "normal_ranges": "Ranges vary by time of day and lab. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24-48 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/cortisol-test/about/pac-20384941",
+      "https://medlineplus.gov/lab-tests/cortisol-level/"
+    ]
+  },
+  {
+    "name": "Insulin Level Test",
+    "description": "Measures the amount of insulin in your blood.",
+    "purpose": "To help diagnose the cause of hypoglycemia or to monitor insulin resistance.",
+    "when_to_get": "If you have symptoms of low blood sugar or are being evaluated for insulin resistance.",
+    "preparation": "8-12 hours fasting required.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Ranges vary by lab. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24-48 hours.",
+    "references": [
+      "https://www.webmd.com/diabetes/insulin-test",
+      "https://medlineplus.gov/lab-tests/insulin-in-blood/"
+    ]
+  },
+  {
+    "name": "Liver Function Test",
+    "description": "Measures enzymes and proteins in your blood to assess liver health.",
+    "purpose": "To detect liver disease or damage.",
+    "when_to_get": "If you have symptoms of liver problems or as part of a routine check.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "ALT: 7-56 U/L, AST: 10-40 U/L, ALP: 44-147 U/L, Bilirubin: 0.1-1.2 mg/dL. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/liver-function-tests/about/pac-20394595",
+      "https://medlineplus.gov/lab-tests/liver-function-tests/"
+    ]
+  },
+  {
+    "name": "Kidney Function Test",
+    "description": "Measures creatinine and BUN levels to assess kidney health.",
+    "purpose": "To detect kidney disease or monitor kidney function.",
+    "when_to_get": "If you have symptoms of kidney problems or as part of a routine check.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Creatinine: 0.6-1.3 mg/dL, BUN: 7-20 mg/dL. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24 hours.",
+    "references": [
+      "https://www.kidney.org/atoz/content/kidneytests",
+      "https://medlineplus.gov/lab-tests/kidney-function-tests/"
+    ]
+  },
+  {
+    "name": "Vitamin D Test",
+    "description": "Measures the level of vitamin D in your blood.",
+    "purpose": "To detect vitamin D deficiency or monitor supplementation.",
+    "when_to_get": "If you have symptoms of deficiency or are at risk.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "20-50 ng/mL is considered adequate. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24-48 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/vitamin-d-test/about/pac-20384601",
+      "https://medlineplus.gov/lab-tests/vitamin-d-test/"
+    ]
+  },
+  {
+    "name": "Vitamin B12 Test",
+    "description": "Measures the level of vitamin B12 in your blood.",
+    "purpose": "To detect vitamin B12 deficiency.",
+    "when_to_get": "If you have symptoms of deficiency or are at risk.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "190-950 pg/mL is considered normal. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/vitamin-b12-test/about/pac-20384979",
+      "https://medlineplus.gov/lab-tests/vitamin-b12-level/"
+    ]
+  },
+  {
+    "name": "Food Allergy Panel",
+    "description": "Tests for allergic reactions to common foods by measuring IgE antibodies.",
+    "purpose": "To identify food allergies.",
+    "when_to_get": "If you have symptoms of food allergy (rash, swelling, etc.).",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Results depend on the specific allergen. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "2-3 days.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/allergy-tests/about/pac-20392895",
+      "https://medlineplus.gov/lab-tests/allergy-blood-test/"
+    ]
+  },
+  {
+    "name": "Environmental Allergy Test",
+    "description": "Tests for allergic reactions to environmental allergens like pollen, dust, and pet dander.",
+    "purpose": "To identify environmental allergies.",
+    "when_to_get": "If you have symptoms of allergy (sneezing, runny nose, etc.).",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Results depend on the specific allergen. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "2-3 days.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/allergy-tests/about/pac-20392895",
+      "https://medlineplus.gov/lab-tests/allergy-blood-test/"
+    ]
+  },
+  {
+    "name": "Comprehensive Metabolic Panel",
+    "description": "A group of blood tests that provide information about your body's chemical balance and metabolism.",
+    "purpose": "To assess overall health and screen for a variety of disorders.",
+    "when_to_get": "As part of a routine health check or if you have symptoms of metabolic imbalance.",
+    "preparation": "8-12 hours fasting required.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Ranges vary by component. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/comprehensive-metabolic-panel/about/pac-20384988",
+      "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel/"
+    ]
+  },
+  {
+    "name": "Basic Metabolic Panel",
+    "description": "A group of blood tests that measure different chemicals in the blood.",
+    "purpose": "To assess kidney function, blood sugar, and electrolyte and acid/base balance.",
+    "when_to_get": "As part of a routine health check or if you have symptoms of metabolic imbalance.",
+    "preparation": "8-12 hours fasting required.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Ranges vary by component. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/basic-metabolic-panel/about/pac-20384979",
+      "https://medlineplus.gov/lab-tests/basic-metabolic-panel/"
+    ]
+  },
+  {
+    "name": "C-Reactive Protein",
+    "description": "Measures the level of C-reactive protein, a marker of inflammation in the body.",
+    "purpose": "To detect inflammation due to infection or chronic disease.",
+    "when_to_get": "If you have symptoms of infection or inflammation.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Less than 10 mg/L is considered normal. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/c-reactive-protein-test/about/pac-20385228",
+      "https://medlineplus.gov/lab-tests/c-reactive-protein-crp-test/"
+    ]
+  },
+  {
+    "name": "Erythrocyte Sedimentation Rate",
+    "description": "Measures how quickly red blood cells settle at the bottom of a test tube. A marker of inflammation.",
+    "purpose": "To detect inflammation in the body.",
+    "when_to_get": "If you have symptoms of infection or inflammation.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Ranges vary by age and gender. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/sed-rate/about/pac-20384797",
+      "https://medlineplus.gov/lab-tests/erythrocyte-sedimentation-rate-esr/"
+    ]
+  },
+  {
+    "name": "Prostate Specific Antigen",
+    "description": "Measures the level of PSA in the blood, a marker for prostate cancer.",
+    "purpose": "To screen for and monitor prostate cancer.",
+    "when_to_get": "If you are a male over 50 or have risk factors for prostate cancer.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Less than 4.0 ng/mL is considered normal. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24-48 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/psa-test/about/pac-20384731",
+      "https://medlineplus.gov/lab-tests/prostate-specific-antigen-psa-test/"
+    ]
+  },
+  {
+    "name": "CA-125 Test",
+    "description": "Measures the level of CA-125, a marker for ovarian cancer.",
+    "purpose": "To help diagnose and monitor ovarian cancer.",
+    "when_to_get": "If you have symptoms or risk factors for ovarian cancer.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Less than 35 U/mL is considered normal. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24-48 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/ca-125-test/about/pac-20393295",
+      "https://medlineplus.gov/lab-tests/ca-125-blood-test/"
+    ]
+  },
+  {
+    "name": "CEA Test",
+    "description": "Measures the level of CEA, a marker for colorectal and other cancers.",
+    "purpose": "To help diagnose and monitor colorectal and other cancers.",
+    "when_to_get": "If you have symptoms or risk factors for colorectal cancer.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Less than 2.5 ng/mL (non-smokers) or 5.0 ng/mL (smokers) is considered normal. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24-48 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/cea-test/about/pac-20393296",
+      "https://medlineplus.gov/lab-tests/carcinoembryonic-antigen-cea/"
+    ]
+  },
+  {
+    "name": "AFP Test",
+    "description": "Measures the level of alpha-fetoprotein, a marker for liver cancer.",
+    "purpose": "To help diagnose and monitor liver cancer.",
+    "when_to_get": "If you have symptoms or risk factors for liver cancer.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Less than 10 ng/mL is considered normal. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24-48 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/afp-test/about/pac-20393099",
+      "https://medlineplus.gov/lab-tests/alpha-fetoprotein-afp-blood-test/"
+    ]
+  },
+  {
+    "name": "Testosterone Test",
+    "description": "Measures the level of testosterone, a male sex hormone, in the blood.",
+    "purpose": "To diagnose hormone imbalances or infertility in men.",
+    "when_to_get": "If you have symptoms of low or high testosterone.",
+    "preparation": "Morning sample preferred.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "270-1070 ng/dL is considered normal for adult males. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24-48 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/testosterone-test/about/pac-20385004",
+      "https://medlineplus.gov/lab-tests/testosterone/"
+    ]
+  },
+  {
+    "name": "Estrogen Test",
+    "description": "Measures the level of estrogen, a female sex hormone, in the blood.",
+    "purpose": "To diagnose hormone imbalances or infertility in women.",
+    "when_to_get": "If you have symptoms of low or high estrogen.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Ranges vary by age and menstrual cycle. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24-48 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/estrogen-test/about/pac-20393031",
+      "https://medlineplus.gov/lab-tests/estrogen/"
+    ]
+  },
+  {
+    "name": "Progesterone Test",
+    "description": "Measures the level of progesterone, a female reproductive hormone, in the blood.",
+    "purpose": "To diagnose ovulation problems or infertility in women.",
+    "when_to_get": "If you have symptoms of low or high progesterone.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Ranges vary by menstrual cycle. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24-48 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/progesterone-test/about/pac-20393033",
+      "https://medlineplus.gov/lab-tests/progesterone/"
+    ]
+  },
+  {
+    "name": "Folate Test",
+    "description": "Measures the level of folic acid (vitamin B9) in the blood.",
+    "purpose": "To detect folate deficiency.",
+    "when_to_get": "If you have symptoms of deficiency or are at risk.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "2.7-17.0 ng/mL is considered normal. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24-48 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/folate-test/about/pac-20393029",
+      "https://medlineplus.gov/lab-tests/folate/"
+    ]
+  },
+  {
+    "name": "Iron Studies",
+    "description": "Measures iron, TIBC, and ferritin levels in the blood.",
+    "purpose": "To diagnose iron deficiency or overload.",
+    "when_to_get": "If you have symptoms of anemia or iron overload.",
+    "preparation": "No special preparation is needed.",
+    "procedure": "A blood sample is drawn from a vein in your arm.",
+    "normal_ranges": "Iron: 60-170 mcg/dL, TIBC: 240-450 mcg/dL, Ferritin: 12-300 ng/mL. Consult your doctor for interpretation.",
+    "risks": "Minimal risks: slight pain or bruising at the puncture site.",
+    "turnaround_time": "24-48 hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/iron-tests/about/pac-20393044",
+      "https://medlineplus.gov/lab-tests/iron-tests/"
+    ]
+  },
+  {
+    "name": "Urinalysis",
+    "description": "A complete analysis of urine to detect a wide range of disorders.",
+    "purpose": "To screen for urinary tract infections, kidney disease, and diabetes.",
+    "when_to_get": "If you have symptoms of urinary tract infection or as part of a routine check.",
+    "preparation": "First morning urine preferred.",
+    "procedure": "A urine sample is collected in a sterile container.",
+    "normal_ranges": "Results depend on the component tested. Consult your doctor for interpretation.",
+    "risks": "None.",
+    "turnaround_time": "A few hours.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/urinalysis/about/pac-20384907",
+      "https://medlineplus.gov/lab-tests/urinalysis/"
+    ]
+  },
+  {
+    "name": "Stool Occult Blood",
+    "description": "Detects hidden (occult) blood in the stool, a possible sign of colon cancer or polyps.",
+    "purpose": "To screen for colon cancer or gastrointestinal bleeding.",
+    "when_to_get": "If you have symptoms of GI bleeding or as part of routine screening.",
+    "preparation": "Special diet restrictions may be required. Follow your doctor's instructions.",
+    "procedure": "A stool sample is collected and tested for blood.",
+    "normal_ranges": "Negative (no blood detected) is normal. Consult your doctor for interpretation.",
+    "risks": "None.",
+    "turnaround_time": "2-3 days.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/fecal-occult-blood-test/about/pac-20394112",
+      "https://medlineplus.gov/lab-tests/fecal-occult-blood-test/"
+    ]
+  },
+  {
+    "name": "Helicobacter Pylori Test",
+    "description": "Detects infection with H. pylori bacteria, which can cause ulcers.",
+    "purpose": "To diagnose H. pylori infection.",
+    "when_to_get": "If you have symptoms of peptic ulcer disease.",
+    "preparation": "Fasting not required, but certain medications may need to be stopped. Follow your doctor's instructions.",
+    "procedure": "A stool, breath, or blood sample may be used.",
+    "normal_ranges": "Negative (no infection) is normal. Consult your doctor for interpretation.",
+    "risks": "None.",
+    "turnaround_time": "1-2 days.",
+    "references": [
+      "https://www.mayoclinic.org/tests-procedures/h-pylori-test/about/pac-20384908",
+      "https://medlineplus.gov/lab-tests/helicobacter-pylori-tests/"
+    ]
+  }
+] 
