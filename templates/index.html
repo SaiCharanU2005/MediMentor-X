@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediMentor-X</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>MediMentor-X</h1>
+                <span class="tagline">Your AI Healthcare Assistant</span>
+            </div>
+            <nav class="main-nav">
+                <button class="nav-btn active" data-module="dashboard">
+                    <span class="nav-icon">📊</span>
+                    Dashboard
+                </button>
+                <button class="nav-btn" data-module="ai-doctor">
+                    <span class="nav-icon">🤖</span>
+                    AI Doctor
+                </button>
+                <button class="nav-btn" data-module="delivery">
+                    <span class="nav-icon">💊</span>
+                    Medicine
+                </button>
+                <button class="nav-btn" data-module="consultation">
+                    <span class="nav-icon">👨‍⚕️</span>
+                    Doctors
+                </button>
+                <button class="nav-btn" data-module="tests">
+                    <span class="nav-icon">🧪</span>
+                    Tests
+                </button>
+                <button class="nav-btn" data-module="hospitals">
+                    <span class="nav-icon">🏥</span>
+                    Hospitals
+                </button>
+                <button class="nav-btn" data-module="pharmacy">
+                    <span class="nav-icon">🏪</span>
+                    Pharmacy
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- Health Monitoring Dashboard -->
+            <section id="dashboard" class="module active">
+                <div class="module-header">
+                    <h2>Health Monitoring Dashboard</h2>
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Search metrics...">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                </div>
+                <div class="health-metrics-grid">
+                    <div class="metric-card" data-metric="heart-rate">
+                        <span class="metric-icon">❤️</span>
+                        <div class="metric-info">
+                            <h3>Heart Rate</h3>
+                            <div class="metric-value">72 <span>bpm</span></div>
+                            <span class="metric-status normal">Normal</span>
+                        </div>
+                        <div class="metric-chart"><canvas></canvas></div>
+                    </div>
+                    <div class="metric-card" data-metric="blood-pressure">
+                        <span class="metric-icon">🩸</span>
+                        <div class="metric-info">
+                            <h3>Blood Pressure</h3>
+                            <div class="metric-value">120/80 <span>mmHg</span></div>
+                            <span class="metric-status normal">Normal</span>
+                        </div>
+                        <div class="metric-chart"><canvas></canvas></div>
+                    </div>
+                    <div class="metric-card" data-metric="temperature">
+                        <span class="metric-icon">🌡️</span>
+                        <div class="metric-info">
+                            <h3>Temperature</h3>
+                            <div class="metric-value">98.6 <span>°F</span></div>
+                            <span class="metric-status normal">Normal</span>
+                        </div>
+                        <div class="metric-chart"><canvas></canvas></div>
+                    </div>
+                    <div class="metric-card" data-metric="blood-sugar">
+                        <span class="metric-icon">🍯</span>
+                        <div class="metric-info">
+                            <h3>Blood Sugar</h3>
+                            <div class="metric-value">95 <span>mg/dL</span></div>
+                            <span class="metric-status normal">Normal</span>
+                        </div>
+                        <div class="metric-chart"><canvas></canvas></div>
+                    </div>
+                    <div class="metric-card" data-metric="sleep">
+                        <span class="metric-icon">😴</span>
+                        <div class="metric-info">
+                            <h3>Sleep</h3>
+                            <div class="metric-value">7.5 <span>hours</span></div>
+                            <span class="metric-status good">Good</span>
+                        </div>
+                        <div class="metric-chart"><canvas></canvas></div>
+                    </div>
+                    <div class="metric-card" data-metric="steps">
+                        <span class="metric-icon">👟</span>
+                        <div class="metric-info">
+                            <h3>Steps</h3>
+                            <div class="metric-value">8,245 <span>steps</span></div>
+                            <span class="metric-status active">Active</span>
+                        </div>
+                        <div class="metric-chart"><canvas></canvas></div>
+                    </div>
+                </div>
+                <div class="dashboard-actions">
+                    <button class="btn btn--primary">Export Health Report</button>
+                    <button class="btn btn--secondary">Sync Devices</button>
+                    <button class="btn btn--secondary">View History</button>
+                </div>
+            </section>
+
+            <!-- AI Doctor Assistant -->
+            <section id="ai-doctor" class="module">
+                <div class="module-header">
+                    <h2>MediMentor-X Assistant</h2>
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Search conversation...">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                </div>
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <span class="doctor-avatar">🤖</span>
+                        <div class="doctor-info">
+                            <h3>MediMentor-X</h3>
+                            <span class="status online">Online</span>
+                        </div>
+                        <div class="chat-actions">
+                            <button class="btn btn--secondary" id="clearChat">Clear Chat</button>
+                        </div>
+                    </div>
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message bot-message">
+                            <div class="message-avatar">🤖</div>
+                            <div class="message-content">
+                                <p>Hello! I'm MediMentor-X, your AI doctor assistant. I'm here to help you with your health concerns. Please describe your symptoms, and I'll ask you relevant questions to better understand your condition.</p>
+                                <span class="message-time">Just now</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-input-container">
+                        <input type="text" class="chat-input" id="chatInput" placeholder="Type your symptoms or question...">
+                        <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+                        <button class="btn btn--secondary" id="uploadImageBtn">🖼️</button>
+                        <button class="btn send-btn" id="sendMessage">Send</button>
+                    </div>
+                    <!-- Image upload modal -->
+                    <div id="imageUploadModal" class="modal" style="display: none;">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>Upload Prescription</h3>
+                                <button class="modal-close" id="closeModal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="upload-preview">
+                                    <img id="imagePreview" src="" alt="Preview" style="display: none; max-width: 100%; max-height: 200px;">
+                                </div>
+                                <div class="form-group">
+                                    <label for="imageComment" class="form-label">Add a comment (optional):</label>
+                                    <textarea id="imageComment" class="form-control" placeholder="Describe what this prescription is for, any questions you have, or context about the medications..."></textarea>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn--secondary" id="cancelUpload">Cancel</button>
+                                <button class="btn btn--primary" id="confirmUpload">Upload & Analyze</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Medicine Delivery -->
+            <section id="delivery" class="module">
+                <div class="module-header">
+                    <h2>Medicine Delivery</h2>
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Search medicines...">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                </div>
+                <div class="medicine-filter-bar">
+                    <label for="medicineCategoryFilter" class="form-label">Filter by Category:</label>
+                    <select id="medicineCategoryFilter" class="form-control">
+                        <option value="all">All</option>
+                        <option value="pain-relief">Pain Relief</option>
+                        <option value="vitamins">Vitamins</option>
+                        <option value="blood-pressure">Blood Pressure</option>
+                        <option value="diabetes">Diabetes</option>
+                        <option value="allergy">Allergy</option>
+                        <option value="antibiotics">Antibiotics</option>
+                    </select>
+                </div>
+                <button id="goToCartBtn" class="floating-cart-btn">
+                    🛒 <span id="floatingCartCount">0</span>
+                </button>
+                <div class="medicine-grid">
+                    <!-- Medicine cards will be loaded dynamically -->
+                    <div class="loading-message">Loading medicines...</div>
+                </div>
+                <div class="cart-section">
+                    <div class="cart-header">
+                        <h3>Shopping Cart (<span id="cartCount">0</span>)</h3>
+                        <button class="btn btn--primary" id="checkoutBtn">Checkout</button>
+                    </div>
+                    <div id="cartItems">
+                        <p class="empty-cart">Your cart is empty</p>
+                    </div>
+                </div>
+                <section id="orderHistorySection" class="order-history-section">
+                    <h3>Order History</h3>
+                    <div id="orderHistoryList">
+                        <p class="empty-history">No orders yet.</p>
+                    </div>
+                </section>
+                <!-- Quantity Modal Placeholder (for future use) -->
+                <div id="quantityModal" class="modal" style="display: none;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Add to Cart</h3>
+                            <button class="modal-close" id="closeQuantityModal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group quantity-selector">
+                                <label for="quantityInput" class="form-label">Quantity:</label>
+                                <div class="quantity-controls">
+                                    <button type="button" id="quantityDecrement" class="qty-btn">-</button>
+                                    <input type="number" id="quantityInput" class="form-control cart-qty-input" min="1" value="1">
+                                    <button type="button" id="quantityIncrement" class="qty-btn">+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn--secondary" id="cancelQuantity">Cancel</button>
+                            <button class="btn btn--primary" id="confirmQuantity">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Doctor Consultation -->
+            <section id="consultation" class="module">
+                <div class="module-header">
+                    <h2>Doctor Consultation</h2>
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Search doctors...">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                </div>
+                <div class="consultation-filters">
+                    <select id="specialtyFilter" class="form-control">
+                        <option value="">All Specialties</option>
+                        <option value="cardiologist">Cardiologist</option>
+                        <option value="neurologist">Neurologist</option>
+                        <option value="dermatologist">Dermatologist</option>
+                        <option value="orthopedist">Orthopedist</option>
+                        <option value="pediatrician">Pediatrician</option>
+                        <option value="psychiatrist">Psychiatrist</option>
+                        <option value="endocrinologist">Endocrinologist</option>
+                        <option value="gastroenterologist">Gastroenterologist</option>
+                        <option value="ophthalmologist">Ophthalmologist</option>
+                    </select>
+                    <select id="availabilityFilter" class="form-control">
+                        <option value="">Any Time</option>
+                        <option value="today">Available Today</option>
+                        <option value="tomorrow">Available Tomorrow</option>
+                        <option value="this-week">This Week</option>
+                    </select>
+                </div>
+                <div class="doctors-grid">
+                    <!-- Doctor cards will be loaded dynamically -->
+                    <div class="loading-message">Loading doctors...</div>
+                </div>
+            </section>
+
+            <!-- Book Lab Tests -->
+            <section id="tests" class="module">
+                <div class="module-header">
+                    <h2>Book Lab Tests</h2>
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Search tests...">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                </div>
+                <div class="test-categories">
+                    <button class="category-btn active" data-category="all">All Tests</button>
+                    <button class="category-btn" data-category="blood-tests">Blood Tests</button>
+                    <button class="category-btn" data-category="heart-health">Heart Health</button>
+                    <button class="category-btn" data-category="hormone-tests">Hormone Tests</button>
+                    <button class="category-btn" data-category="diabetes">Diabetes</button>
+                    <button class="category-btn" data-category="liver-kidney">Liver & Kidney</button>
+                    <button class="category-btn" data-category="vitamin-tests">Vitamin Tests</button>
+                    <button class="category-btn" data-category="allergy-tests">Allergy Tests</button>
+                </div>
+                <div class="tests-grid">
+                    <!-- Test cards will be loaded dynamically -->
+                    <div class="loading-message">Loading tests...</div>
+                </div>
+                <div class="test-booking-options">
+                    <h3>Collection Options</h3>
+                    <div class="booking-options">
+                        <div class="option-card">
+                            <h4>Home Collection</h4>
+                            <p>Sample collected at your home</p>
+                            <button class="btn btn--primary">Schedule Home Visit</button>
+                        </div>
+                        <div class="option-card">
+                            <h4>Lab Visit</h4>
+                            <p>Visit nearest lab center</p>
+                            <button class="btn btn--primary">Find Lab Centers</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Nearby Hospitals -->
+            <section id="hospitals" class="module">
+                <div class="module-header">
+                    <h2>Nearby Hospitals</h2>
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Search hospitals...">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                </div>
+                <div class="hospital-filters">
+                    <select id="serviceFilter" class="form-control">
+                        <option value="">All Services</option>
+                        <option value="Emergency">Emergency Care</option>
+                        <option value="Surgery">Surgery</option>
+                        <option value="Cardiology">Cardiology</option>
+                        <option value="Neurology">Neurology</option>
+                        <option value="Pediatrics">Pediatrics</option>
+                        <option value="Orthopedics">Orthopedics</option>
+                        <option value="Oncology">Oncology</option>
+                        <option value="Psychiatry">Psychiatry</option>
+                        <option value="ICU">ICU</option>
+                    </select>
+                    <select id="distanceFilter" class="form-control">
+                        <option value="">Any Distance</option>
+                        <option value="1">Within 1 mile</option>
+                        <option value="2">Within 2 miles</option>
+                        <option value="5">Within 5 miles</option>
+                        <option value="10">Within 10 miles</option>
+                    </select>
+                </div>
+                <div class="hospitals-grid">
+                    <!-- Hospital cards will be loaded dynamically -->
+                    <div class="loading-message">Loading hospitals...</div>
+                </div>
+            </section>
+
+            <!-- Pharmacy Finder -->
+            <section id="pharmacy" class="module">
+                <div class="module-header">
+                    <h2>Pharmacy Finder</h2>
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Search pharmacies...">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                </div>
+                <div class="pharmacy-features">
+                    <div class="feature-card">
+                        <h4>Medicine Availability</h4>
+                        <p>Check real-time medicine stock across pharmacies</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>Price Comparison</h4>
+                        <p>Compare medicine prices between different pharmacies</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>24/7 Service</h4>
+                        <p>Find pharmacies open round the clock</p>
+                    </div>
+                </div>
+                <div class="pharmacies-grid">
+                    <!-- Pharmacy cards will be loaded dynamically -->
+                    <div class="loading-message">Loading pharmacies...</div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <div id="notificationStack" class="notification-stack"></div>
+
+    <div id="testInfoSidebar" class="test-info-sidebar" style="display: none;">
+        <div class="test-info-sidebar-content">
+            <button class="test-info-close" id="closeTestInfoSidebar">&times;</button>
+            <div id="testInfoContent"></div>
+        </div>
+    </div>
+
+    <div id="medicineInfoSidebar" class="medicine-info-sidebar" style="display: none;">
+        <div class="medicine-info-sidebar-content">
+            <button class="medicine-info-close" id="closeMedicineInfoSidebar">&times;</button>
+            <div id="medicineInfoContent"></div>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+    <script src="/static/js/data-loader.js"></script>
+</body>
+</html>
