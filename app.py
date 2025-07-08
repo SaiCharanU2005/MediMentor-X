@@ -5,16 +5,13 @@ import base64
 
 # === CONFIG ===
 app = Flask(__name__)
-app.secret_key = os.getenv("FLASK_SECRET_KEY", "your_default_secret_key_here") # It's better to use an env var for secret key
+app.secret_key = os.getenv("FLASK_SECRET_KEY") # It's better to use an env var for secret key
 
 # API Keys
-OPENROUTER_API_KEY = os.getenv(
-    "OPENROUTER_API_KEY",
-    "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" # Default fallback key
-)
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 # Google Gemini API Key as backup for image analysis
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyBL1si9NY6x74w7_swPrIj5qsGPXYvsc34")  # Add your Google AI Studio API key here
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  # Add your Google AI Studio API key here
 
 # === ROUTES ===
 
