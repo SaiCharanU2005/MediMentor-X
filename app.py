@@ -2,7 +2,10 @@ from flask import Flask, request, jsonify, render_template, session
 import requests
 import os
 import base64
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 # === CONFIG ===
 app = Flask(__name__)
 app.secret_key = os.getenv("FLASK_SECRET_KEY") # It's better to use an env var for secret key
