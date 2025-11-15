@@ -11,7 +11,7 @@ app = Flask(__name__)
 app.secret_key = os.getenv("FLASK_SECRET_KEY") # It's better to use an env var for secret key
 
 # API Keys
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY1 = os.getenv("OPENROUTER_API_KEY1")
 
 # Google Gemini API Key as backup for image analysis
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  # Add your Google AI Studio API key here
@@ -50,7 +50,7 @@ def chat():
     messages_to_send = [{"role": "system", "content": system_prompt}] + history
 
     headers = {
-        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Authorization": f"Bearer {OPENROUTER_API_KEY1}",
         "Content-Type": "application/json"
     }
     data = {
@@ -246,7 +246,8 @@ def analyze_image():
 #     except Exception as e:
 #         return f"⚠️ Google Gemini API Error: {str(e)}", 'google_gemini'
 def analyze_image_with_openrouter(image_file, comment=''):
-    OPENROUTER_API_KEY = "YOUR_OPENROUTER_KEY"
+    OPENROUTER_API_KEY2 = os.getenv("OPENROUTER_API_KEY2")
+
 
     image_bytes = image_file.read()
     base64_image = base64.b64encode(image_bytes).decode("utf-8")
@@ -291,10 +292,12 @@ def analyze_image_with_openrouter(image_file, comment=''):
     }
 
     headers = {
-        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-        "HTTP-Referer": "http://localhost",
-        "Content-Type": "application/json"
-    }
+    "Authorization": f"Bearer {OPENROUTER_API_KEY2}",
+    "HTTP-Referer": "https://medimentor-x.onrender.com",
+    "X-Title": "Medimentor App",
+    "Content-Type": "application/json"
+}
+
 
     try:
         response = requests.post(url, headers=headers, json=payload)
