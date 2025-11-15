@@ -173,47 +173,103 @@ def analyze_image_with_openrouter(image_file, comment=''):
         else:
             raise e
 
+# def analyze_image_with_google_gemini(image_file, comment=''):
+#     """
+#     Backup function using Google Gemini API for image analysis
+#     """
+#     image_bytes = image_file.read()
+#     base64_image = base64.b64encode(image_bytes).decode("utf-8")
+    
+#     # Reset file pointer for potential future reads
+#     image_file.seek(0)
+    
+#     system_prompt = (
+#         "You are a medical assistant AI specialized in extracting and explaining structured "
+#         "information from handwritten or printed prescription images. "
+#         "You must not guess any illegible text. If something is unclear or unreadable, write [illegible]. "
+#         "Return only the text that is confidently visible from the image. "
+#         "Provide the extracted information in a clearly labeled, structured format with the following sections:\n\n"
+#         "Patient Information:\n* Name: \n* Age: \n* Address: \n* Date: \n\n"
+#         "Medications:\n* (List each medication with name, dosage, and frequency, one per line)\n\n"
+#         "Physician Information:\n* Name: \n* DEA Number: \n* Signature: \n\n"
+#         "Refill Details:\n* Refills allowed: \n\n"
+#         "This format is required. Never make up names, numbers, or medicines. "
+#         "You can explain what medications are for, their common uses, and general information about them. "
+#         "However, always remind users to consult their healthcare provider for specific medical advice."
+#     )
+    
+#     # Create user prompt with comment if provided
+#     user_prompt = "Please extract and format the prescription from this image accurately."
+#     if comment:
+#         user_prompt += f"\n\nUser comment/question: {comment}\n\nPlease address the user's comment/question in your response after extracting the prescription information."
+    
+#     # Google Gemini API endpoint
+#     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GOOGLE_API_KEY}"
+    
+#     # Prepare the request data for Gemini
+#     data = {
+#         "contents": [
+#             {
+#                 "parts": [
+#                     {
+#                         "text": f"{system_prompt}\n\n{user_prompt}"
+#                     },
+#                     {
+#                         "inline_data": {
+#                             "mime_type": "image/jpeg",
+#                             "data": base64_image
+#                         }
+#                     }
+#                 ]
+#             }
+#         ],
+#         "generationConfig": {
+#             "temperature": 0,
+#             "maxOutputTokens": 1500
+#         }
+#     }
+    
+#     headers = {"Content-Type": "application/json"}
+    
+#     try:
+#         response = requests.post(url, headers=headers, json=data)
+#         response.raise_for_status()
+        
+#         # Parse Gemini response
+#         result = response.json()
+#         if 'candidates' in result and len(result['candidates']) > 0:
+#             content = result['candidates'][0]['content']['parts'][0]['text']
+#             return content.strip(), 'google_gemini'
+#         else:
+#             return "⚠️ No response generated from Google Gemini API", 'google_gemini'
+            
+#     except Exception as e:
+#         return f"⚠️ Google Gemini API Error: {str(e)}", 'google_gemini'
 def analyze_image_with_google_gemini(image_file, comment=''):
-    """
-    Backup function using Google Gemini API for image analysis
-    """
     image_bytes = image_file.read()
     base64_image = base64.b64encode(image_bytes).decode("utf-8")
-    
-    # Reset file pointer for potential future reads
+
     image_file.seek(0)
-    
+
     system_prompt = (
         "You are a medical assistant AI specialized in extracting and explaining structured "
         "information from handwritten or printed prescription images. "
         "You must not guess any illegible text. If something is unclear or unreadable, write [illegible]. "
-        "Return only the text that is confidently visible from the image. "
-        "Provide the extracted information in a clearly labeled, structured format with the following sections:\n\n"
-        "Patient Information:\n* Name: \n* Age: \n* Address: \n* Date: \n\n"
-        "Medications:\n* (List each medication with name, dosage, and frequency, one per line)\n\n"
-        "Physician Information:\n* Name: \n* DEA Number: \n* Signature: \n\n"
-        "Refill Details:\n* Refills allowed: \n\n"
-        "This format is required. Never make up names, numbers, or medicines. "
-        "You can explain what medications are for, their common uses, and general information about them. "
-        "However, always remind users to consult their healthcare provider for specific medical advice."
+        "Return only the text that is confidently visible."
     )
-    
-    # Create user prompt with comment if provided
+
     user_prompt = "Please extract and format the prescription from this image accurately."
     if comment:
-        user_prompt += f"\n\nUser comment/question: {comment}\n\nPlease address the user's comment/question in your response after extracting the prescription information."
-    
-    # Google Gemini API endpoint
+        user_prompt += f"\n\nUser comment: {comment}"
+
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GOOGLE_API_KEY}"
-    
-    # Prepare the request data for Gemini
+
     data = {
         "contents": [
             {
+                "role": "user",
                 "parts": [
-                    {
-                        "text": f"{system_prompt}\n\n{user_prompt}"
-                    },
+                    {"text": system_prompt + "\n\n" + user_prompt},
                     {
                         "inline_data": {
                             "mime_type": "image/jpeg",
@@ -228,23 +284,22 @@ def analyze_image_with_google_gemini(image_file, comment=''):
             "maxOutputTokens": 1500
         }
     }
-    
+
     headers = {"Content-Type": "application/json"}
-    
+
     try:
         response = requests.post(url, headers=headers, json=data)
         response.raise_for_status()
-        
-        # Parse Gemini response
+
         result = response.json()
-        if 'candidates' in result and len(result['candidates']) > 0:
-            content = result['candidates'][0]['content']['parts'][0]['text']
-            return content.strip(), 'google_gemini'
-        else:
-            return "⚠️ No response generated from Google Gemini API", 'google_gemini'
-            
+        return (
+            result['candidates'][0]['content']['parts'][0]['text'].strip(),
+            'google_gemini'
+        )
+
     except Exception as e:
         return f"⚠️ Google Gemini API Error: {str(e)}", 'google_gemini'
+
 
 # === MAIN ===
 if __name__ == '__main__':
