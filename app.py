@@ -122,56 +122,56 @@ def analyze_image():
 
 # === HELPERS ===
 
-def analyze_image_with_openrouter(image_file, comment=''):
-    image_bytes = image_file.read()
-    base64_image = base64.b64encode(image_bytes).decode("utf-8")
+# def analyze_image_with_openrouter(image_file, comment=''):
+#     image_bytes = image_file.read()
+#     base64_image = base64.b64encode(image_bytes).decode("utf-8")
 
-    # Enhanced system prompt that can explain medications
-    system_prompt = (
-        "You are a medical assistant AI specialized in extracting and explaining structured "
-        "information from handwritten or printed prescription images. "
-        "You must not guess any illegible text. If something is unclear or unreadable, write [illegible]. "
-        "Return only the text that is confidently visible from the image. "
-        "Provide the extracted information in a clearly labeled, structured format with the following sections:\n\n"
-        "Patient Information:\n* Name: \n* Age: \n* Address: \n* Date: \n\n"
-        "Medications:\n* (List each medication with name, dosage, and frequency, one per line)\n\n"
-        "Physician Information:\n* Name: \n* DEA Number: \n* Signature: \n\n"
-        "Refill Details:\n* Refills allowed: \n\n"
-        "This format is required. Never make up names, numbers, or medicines. "
-        "You can explain what medications are for, their common uses, and general information about them. "
-        "However, always remind users to consult their healthcare provider for specific medical advice."
-    )
+#     # Enhanced system prompt that can explain medications
+#     system_prompt = (
+#         "You are a medical assistant AI specialized in extracting and explaining structured "
+#         "information from handwritten or printed prescription images. "
+#         "You must not guess any illegible text. If something is unclear or unreadable, write [illegible]. "
+#         "Return only the text that is confidently visible from the image. "
+#         "Provide the extracted information in a clearly labeled, structured format with the following sections:\n\n"
+#         "Patient Information:\n* Name: \n* Age: \n* Address: \n* Date: \n\n"
+#         "Medications:\n* (List each medication with name, dosage, and frequency, one per line)\n\n"
+#         "Physician Information:\n* Name: \n* DEA Number: \n* Signature: \n\n"
+#         "Refill Details:\n* Refills allowed: \n\n"
+#         "This format is required. Never make up names, numbers, or medicines. "
+#         "You can explain what medications are for, their common uses, and general information about them. "
+#         "However, always remind users to consult their healthcare provider for specific medical advice."
+#     )
 
-    headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json"}
+#     headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json"}
     
-    # Create user prompt with comment if provided
-    user_prompt = "Please extract and format the prescription from this image accurately."
-    if comment:
-        user_prompt += f"\n\nUser comment/question: {comment}\n\nPlease address the user's comment/question in your response after extracting the prescription information."
+#     # Create user prompt with comment if provided
+#     user_prompt = "Please extract and format the prescription from this image accurately."
+#     if comment:
+#         user_prompt += f"\n\nUser comment/question: {comment}\n\nPlease address the user's comment/question in your response after extracting the prescription information."
     
-    data = {
-        "model": "meta-llama/llama-3.2-11b-vision-instruct:free",
-        "messages": [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": [
-                {"type": "text", "text": user_prompt},
-                {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}}
-            ]}
-        ],
-        "temperature": 0, "max_tokens": 1500
-    }
+#     data = {
+#         "model": "meta-llama/llama-3.2-11b-vision-instruct:free",
+#         "messages": [
+#             {"role": "system", "content": system_prompt},
+#             {"role": "user", "content": [
+#                 {"type": "text", "text": user_prompt},
+#                 {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}}
+#             ]}
+#         ],
+#         "temperature": 0, "max_tokens": 1500
+#     }
 
-    try:
-        response = requests.post("https://openrouter.ai/api/v1/chat/completions", headers=headers, json=data)
-        response.raise_for_status()
-        return response.json()['choices'][0]['message']['content'].strip(), 'openrouter'
-    except Exception as e:
-        # If OpenRouter fails, try Google Gemini as backup
-        if GOOGLE_API_KEY:
-            print(f"OpenRouter failed: {str(e)}. Trying Google Gemini as backup...")
-            return analyze_image_with_google_gemini(image_file, comment)
-        else:
-            raise e
+#     try:
+#         response = requests.post("https://openrouter.ai/api/v1/chat/completions", headers=headers, json=data)
+#         response.raise_for_status()
+#         return response.json()['choices'][0]['message']['content'].strip(), 'openrouter'
+#     except Exception as e:
+#         # If OpenRouter fails, try Google Gemini as backup
+#         if GOOGLE_API_KEY:
+#             print(f"OpenRouter failed: {str(e)}. Trying Google Gemini as backup...")
+#             return analyze_image_with_google_gemini(image_file, comment)
+#         else:
+#             raise e
 
 # def analyze_image_with_google_gemini(image_file, comment=''):
 #     """
@@ -253,8 +253,18 @@ def analyze_image_with_openrouter(image_file, comment=''):
     image_file.seek(0)
 
     system_prompt = (
-        "You are a medical assistant AI specialized in extracting text from prescription images. "
-        "Return only clear readable text. If something is not clear, write [illegible]."
+         "You are a medical assistant AI specialized in extracting and explaining structured "
+         "information from handwritten or printed prescription images. "
+         "You must not guess any illegible text. If something is unclear or unreadable, write [illegible]. "
+         "Return only the text that is confidently visible from the image. "
+         "Provide the extracted information in a clearly labeled, structured format with the following sections:\n\n"
+         "Patient Information:\n* Name: \n* Age: \n* Address: \n* Date: \n\n"
+         "Medications:\n* (List each medication with name, dosage, and frequency, one per line)\n\n"
+         "Physician Information:\n* Name: \n* DEA Number: \n* Signature: \n\n"
+         "Refill Details:\n* Refills allowed: \n\n"
+         "This format is required. Never make up names, numbers, or medicines. "
+         "You can explain what medications are for, their common uses, and general information about them. "
+         "However, always remind users to consult their healthcare provider for specific medical advice."
     )
 
     user_prompt = "Extract all text from the prescription image."
