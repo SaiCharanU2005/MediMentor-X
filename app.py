@@ -261,7 +261,7 @@ def analyze_image_with_google_gemini(image_file, comment=''):
     if comment:
         user_prompt += f"\n\nUser comment: {comment}"
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GOOGLE_API_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-latest:generateContent?key={GOOGLE_API_KEY}"
 
     data = {
         "contents": [
