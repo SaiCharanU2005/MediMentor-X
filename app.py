@@ -248,7 +248,6 @@ def analyze_image_with_openrouter(image_file, comment=''):
 def analyze_image_with_google_gemini(image_file, comment=''):
     image_bytes = image_file.read()
     base64_image = base64.b64encode(image_bytes).decode("utf-8")
-
     image_file.seek(0)
 
     system_prompt = (
@@ -279,9 +278,9 @@ def analyze_image_with_google_gemini(image_file, comment=''):
                 ]
             }
         ],
-        "generationConfig": {
+        "generation_config": {               # <-- FIXED
             "temperature": 0,
-            "maxOutputTokens": 1500
+            "max_output_tokens": 1500        # <-- FIXED
         }
     }
 
