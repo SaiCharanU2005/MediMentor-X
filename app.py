@@ -275,7 +275,8 @@ def analyze_image_with_openrouter(image_file, comment=''):
     url = "https://openrouter.ai/api/v1/chat/completions"
 
     payload = {
-        "model": "nvidia/nemotron-nano-12b-v2-vl:free",
+        "model": "google/gemma-3-27b-it:free",
+        #"nvidia/nemotron-nano-12b-v2-vl:free",
         "messages": [
             {"role": "system", "content": system_prompt},
             {
