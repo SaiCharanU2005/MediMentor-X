@@ -254,8 +254,7 @@ def analyze_image_with_openrouter(image_file, comment=''):
     image_file.seek(0)
 
     system_prompt = (
-         "You are a medical assistant AI specialized in extracting and explaining structured "
-         "information from handwritten or printed prescription images. "
+         "You are a medical assistant AI specialized in extracting and explaining structured information from handwritten or printed prescription images."
          "You must not guess any illegible text. If something is unclear or unreadable, write [illegible]. "
          "Return only the text that is confidently visible from the image. "
          "Provide the extracted information in a clearly labeled, structured format with the following sections:\n\n"
@@ -275,7 +274,7 @@ def analyze_image_with_openrouter(image_file, comment=''):
     url = "https://openrouter.ai/api/v1/chat/completions"
 
     payload = {
-        "model": "google/gemma-3-27b-it:free",
+        "model": "nvidia/nemotron-nano-12b-v2-vl:free",
         #"nvidia/nemotron-nano-12b-v2-vl:free",
         "messages": [
             {"role": "system", "content": system_prompt},
