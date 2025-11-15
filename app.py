@@ -250,47 +250,47 @@ def analyze_image_with_google_gemini(image_file, comment=''):
     base64_image = base64.b64encode(image_bytes).decode("utf-8")
     image_file.seek(0)
 
-    system_prompt = (
-        "You are a medical assistant AI specialized in extracting and explaining structured "
-        "information from handwritten or printed prescription images. "
-        "You must not guess any illegible text. If something is unclear or unreadable, write [illegible]. "
-        "Return only the text that is confidently visible."
+    system_instruction = (
+        "You are a medical assistant AI specialized in extracting text from prescription images. "
+        "Only return clear text. Write [illegible] for unreadable parts."
     )
 
-    user_prompt = "Please extract and format the prescription from this image accurately."
+    user_prompt = "Extract the text from this prescription image accurately."
     if comment:
         user_prompt += f"\n\nUser comment: {comment}"
 
     url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-latest:generateContent?key={GOOGLE_API_KEY}"
 
-    data = {
+    payload = {
+        "system_instruction": {
+            "parts": [{"text": system_instruction}]
+        },
         "contents": [
             {
-                "role": "user",
                 "parts": [
-                    {"text": system_prompt + "\n\n" + user_prompt},
+                    {"text": user_prompt},
                     {
-                        "inline_data": {
-                            "mime_type": "image/jpeg",
+                        "inlineData": {
+                            "mimeType": "image/jpeg",
                             "data": base64_image
                         }
                     }
                 ]
             }
         ],
-        "generation_config": {               # <-- FIXED
+        "generation_config": {
             "temperature": 0,
-            "max_output_tokens": 1500        # <-- FIXED
+            "max_output_tokens": 1500
         }
     }
 
     headers = {"Content-Type": "application/json"}
 
     try:
-        response = requests.post(url, headers=headers, json=data)
+        response = requests.post(url, headers=headers, json=payload)
         response.raise_for_status()
-
         result = response.json()
+
         return (
             result['candidates'][0]['content']['parts'][0]['text'].strip(),
             'google_gemini'
@@ -298,6 +298,7 @@ def analyze_image_with_google_gemini(image_file, comment=''):
 
     except Exception as e:
         return f"⚠️ Google Gemini API Error: {str(e)}", 'google_gemini'
+
 
 
 # === MAIN ===
