@@ -245,59 +245,56 @@ def analyze_image_with_openrouter(image_file, comment=''):
             
 #     except Exception as e:
 #         return f"⚠️ Google Gemini API Error: {str(e)}", 'google_gemini'
-def analyze_image_with_google_gemini(image_file, comment=''):
+def analyze_image_with_openrouter(image_file, comment=''):
+    OPENROUTER_API_KEY = "YOUR_OPENROUTER_KEY"
+
     image_bytes = image_file.read()
     base64_image = base64.b64encode(image_bytes).decode("utf-8")
     image_file.seek(0)
 
-    system_instruction = (
+    system_prompt = (
         "You are a medical assistant AI specialized in extracting text from prescription images. "
-        "Only return clear text. Write [illegible] for unreadable parts."
+        "Return only clear readable text. If something is not clear, write [illegible]."
     )
 
-    user_prompt = "Extract the text from this prescription image accurately."
+    user_prompt = "Extract all text from the prescription image."
     if comment:
         user_prompt += f"\n\nUser comment: {comment}"
 
-    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-latest:generateContent?key={GOOGLE_API_KEY}"
+    url = "https://openrouter.ai/api/v1/chat/completions"
 
     payload = {
-        "system_instruction": {
-            "parts": [{"text": system_instruction}]
-        },
-        "contents": [
+        "model": "nvidia/nemotron-nano-12b-v2-vl:free",
+        "messages": [
+            {"role": "system", "content": system_prompt},
             {
-                "parts": [
-                    {"text": user_prompt},
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": user_prompt},
                     {
-                        "inlineData": {
-                            "mimeType": "image/jpeg",
-                            "data": base64_image
-                        }
+                        "type": "input_image",
+                        "image_url": f"data:image/jpeg;base64,{base64_image}"
                     }
                 ]
             }
-        ],
-        "generation_config": {
-            "temperature": 0,
-            "max_output_tokens": 1500
-        }
+        ]
     }
 
-    headers = {"Content-Type": "application/json"}
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "HTTP-Referer": "http://localhost",
+        "Content-Type": "application/json"
+    }
 
     try:
         response = requests.post(url, headers=headers, json=payload)
         response.raise_for_status()
-        result = response.json()
+        data = response.json()
 
-        return (
-            result['candidates'][0]['content']['parts'][0]['text'].strip(),
-            'google_gemini'
-        )
+        return data["choices"][0]["message"]["content"], "openrouter"
 
     except Exception as e:
-        return f"⚠️ Google Gemini API Error: {str(e)}", 'google_gemini'
+        return f"⚠️ OpenRouter API Error: {e}", "openrouter"
 
 
 
